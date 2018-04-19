@@ -18,6 +18,7 @@ public class Main {
             
             String line = br.readLine(); //primera linea (Numero de Tareas)
             String[] parts = line.split("/s");
+            instancia.setNumeroTareas(Integer.parseInt(parts[2]));
             numeroTareas = Integer.parseInt(parts[2]);
             tareas = new ArrayList<Tarea>(numeroTareas);
             

@@ -25,5 +25,6 @@ public class Instancia {
     
     public void addTarea(Tarea aux) {
         this.tareas.add(aux);
-    } 
+    }
+    
 }
