@@ -12,7 +12,7 @@ public class Maquina {
 	
 	public Tarea getTarea(int i) {
 		if (i < tareasrealizadas.size()) {
-			return tareasrealizadas[i];
+			return tareasrealizadas.get(i);
 		}
 		else {
 			 throw new RuntimeError("Bad.");
@@ -25,12 +25,12 @@ public class Maquina {
 		for (int i = 0; i < tareasrealizadas.size(); i++) {
 			aux += getLatencia(i);
 		}
-		return aux
+		return aux;
 	}
 	
 	public Integer getLatencia(int index) {
 		
-		if(i >= tareasrealizadas.size())
+		if(index >= tareasrealizadas.size())
 			throw new RuntimeError("Bad.");
 			
 		Integer aux = 0;
@@ -40,11 +40,11 @@ public class Maquina {
 		return aux;
 	}
 	
-	public Vector<Tarea> getTareasrealizadas() {
+	public ArrayList<Tarea> getTareasrealizadas() {
 		return tareasrealizadas;
 	}
 
-	public void setTareasrealizadas(Vector<Tarea> tareasrealizadas) {
+	public void setTareasrealizadas(ArrayList<Tarea> tareasrealizadas) {
 		this.tareasrealizadas = tareasrealizadas;
 	}
 }

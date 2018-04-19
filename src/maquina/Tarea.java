@@ -1,3 +1,4 @@
+package maquina;
 
 public class Tarea {
     
@@ -8,7 +9,7 @@ public class Tarea {
 		try{
 			if((name >= 0) && (time >= 0)){
 				setTime(time);
-	    		setName(name);
+				setName(name);
 			}
 			else
 				throw new IllegalArgumentException();

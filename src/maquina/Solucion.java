@@ -5,7 +5,7 @@ public class Solucion {
 	ArrayList<Maquina> maquinas;
 	
 	public Solucion(Integer nMaquinas) {
-		maquinas = new ArrayList< ArrayList<Tarea> >();
+		maquinas = new ArrayList<Maquina>();
 		for (int i = 0; i < nMaquinas; i++) {
 			maquinas.add(new Maquina());
 		}
