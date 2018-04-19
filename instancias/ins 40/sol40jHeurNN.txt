@@ -1,0 +1,2160 @@
+I40j_2m_S1_1.txt
+Maq1: 0 8 24 10 4 39 34 21 27 36 5 2 17 14 12 28 30 33 15 35 
+Machine Latency: 6045
+Maq2: 0 13 31 18 32 3 9 20 19 1 11 7 26 29 37 6 22 16 40 38 25 23 
+Machine Latency: 7280
+
+Total Latency: 13325
+CPU Time: 0.202
+*********************************************
+I40j_2m_S1_2.txt
+Maq1: 0 37 36 26 10 23 12 11 29 35 6 3 16 20 14 22 15 30 34 7 31 40 
+Machine Latency: 8265
+Maq2: 0 19 39 27 33 5 18 38 17 24 2 4 9 25 28 32 13 21 8 1 
+Machine Latency: 7693
+
+Total Latency: 15958
+CPU Time: 0.187
+*********************************************
+I40j_2m_S1_3.txt
+Maq1: 0 40 11 3 32 39 1 20 28 10 35 5 18 34 6 33 9 25 12 27 29 22 
+Machine Latency: 9136
+Maq2: 0 17 36 21 30 8 7 38 16 13 23 19 4 2 31 26 37 14 24 15 
+Machine Latency: 9047
+
+Total Latency: 18183
+CPU Time: 0.202
+*********************************************
+I40j_2m_S1_4.txt
+Maq1: 0 19 9 16 2 5 24 22 7 27 32 35 6 39 4 17 3 37 33 13 40 
+Machine Latency: 7688
+Maq2: 0 29 8 20 36 11 15 25 18 38 12 34 28 23 31 26 14 1 10 30 21 
+Machine Latency: 8294
+
+Total Latency: 15982
+CPU Time: 0.203
+*********************************************
+I40j_2m_S1_5.txt
+Maq1: 0 38 1 7 27 28 14 5 8 2 39 34 32 25 11 21 19 6 23 35 16 
+Machine Latency: 6504
+Maq2: 0 13 30 36 9 26 10 24 20 40 31 17 22 15 29 37 3 18 4 33 12 
+Machine Latency: 6604
+
+Total Latency: 13108
+CPU Time: 0.202
+*********************************************
+I40j_2m_S2_1.txt
+Maq1: 0 1 38 30 23 5 25 37 35 22 39 19 33 36 24 28 27 3 40 11 20 15 
+Machine Latency: 11015
+Maq2: 0 21 29 10 18 6 16 4 13 26 9 7 14 2 34 12 8 17 32 31 
+Machine Latency: 9540
+
+Total Latency: 20555
+CPU Time: 0.187
+*********************************************
+I40j_2m_S2_2.txt
+Maq1: 0 40 32 3 26 25 23 10 33 36 34 38 22 35 28 30 1 2 6 21 
+Machine Latency: 7746
+Maq2: 0 5 15 39 29 11 24 16 7 19 14 31 20 9 37 17 27 8 12 4 18 13 
+Machine Latency: 8014
+
+Total Latency: 15760
+CPU Time: 0.187
+*********************************************
+I40j_2m_S2_3.txt
+Maq1: 0 2 20 13 28 29 6 16 39 23 14 4 37 33 19 17 1 10 38 34 24 
+Machine Latency: 9823
+Maq2: 0 11 26 27 36 35 30 5 3 9 32 40 22 7 15 31 25 12 8 21 18 
+Machine Latency: 10938
+
+Total Latency: 20761
+CPU Time: 0.202
+*********************************************
+I40j_2m_S2_4.txt
+Maq1: 0 28 29 10 24 35 3 8 22 20 23 25 27 7 12 16 37 36 14 31 39 15 
+Machine Latency: 10100
+Maq2: 0 1 19 21 32 5 26 18 4 38 13 11 17 33 30 6 34 2 9 40 
+Machine Latency: 9446
+
+Total Latency: 19546
+CPU Time: 0.187
+*********************************************
+I40j_2m_S2_5.txt
+Maq1: 0 9 21 4 27 19 28 2 36 13 30 7 26 24 12 6 15 8 3 38 39 20 
+Machine Latency: 10237
+Maq2: 0 33 16 37 5 11 32 1 29 23 25 40 22 10 35 14 34 31 18 17 
+Machine Latency: 9175
+
+Total Latency: 19412
+CPU Time: 0.187
+*********************************************
+I40j_2m_S3_1.txt
+Maq1: 0 36 14 26 8 27 2 10 20 28 1 25 30 19 34 39 37 17 15 
+Machine Latency: 10471
+Maq2: 0 11 40 23 21 9 7 22 5 38 32 29 3 35 18 31 12 6 24 13 33 16 4 
+Machine Latency: 10345
+
+Total Latency: 20816
+CPU Time: 0.202
+*********************************************
+I40j_2m_S3_2.txt
+Maq1: 0 36 29 17 18 2 40 11 1 34 8 3 35 23 19 27 24 32 7 15 22 13 26 
+Machine Latency: 12052
+Maq2: 0 14 39 16 4 12 30 9 28 31 20 10 6 25 33 37 21 5 38 
+Machine Latency: 10669
+
+Total Latency: 22721
+CPU Time: 0.202
+*********************************************
+I40j_2m_S3_3.txt
+Maq1: 0 17 18 23 19 8 6 12 36 9 37 1 20 5 14 29 10 38 35 21 16 
+Machine Latency: 8775
+Maq2: 0 22 25 4 7 39 30 32 31 33 40 13 26 28 2 3 15 34 27 24 11 
+Machine Latency: 9309
+
+Total Latency: 18084
+CPU Time: 0.187
+*********************************************
+I40j_2m_S3_4.txt
+Maq1: 0 5 27 33 4 23 18 19 10 39 40 35 26 2 21 7 38 36 9 34 
+Machine Latency: 9291
+Maq2: 0 30 8 29 31 25 14 24 17 11 20 3 13 32 1 12 22 28 15 37 16 6 
+Machine Latency: 9978
+
+Total Latency: 19269
+CPU Time: 0.202
+*********************************************
+I40j_2m_S3_5.txt
+Maq1: 0 19 10 34 8 33 4 35 11 16 9 15 18 26 38 36 13 14 1 24 21 37 
+Machine Latency: 9795
+Maq2: 0 7 22 25 17 39 31 27 32 23 5 20 29 28 12 6 30 40 2 3 
+Machine Latency: 9083
+
+Total Latency: 18878
+CPU Time: 0.202
+*********************************************
+I40j_3m_S1_1.txt
+Maq1: 0 39 9 36 5 24 16 32 6 22 33 37 23 
+Machine Latency: 2893
+Maq2: 0 8 31 18 3 20 19 1 2 14 12 28 30 38 25 
+Machine Latency: 3266
+Maq3: 0 13 4 7 10 11 21 27 17 34 26 29 35 40 15 
+Machine Latency: 3090
+
+Total Latency: 9249
+CPU Time: 0.218
+*********************************************
+I40j_3m_S1_2.txt
+Maq1: 0 36 27 33 5 18 6 3 16 22 28 15 30 34 7 
+Machine Latency: 3730
+Maq2: 0 37 26 10 14 38 12 11 24 2 4 9 31 8 1 
+Machine Latency: 3639
+Maq3: 0 39 35 29 23 19 20 17 32 13 40 25 21 
+Machine Latency: 3709
+
+Total Latency: 11078
+CPU Time: 0.202
+*********************************************
+I40j_3m_S1_3.txt
+Maq1: 0 40 11 3 38 16 19 9 23 10 27 31 15 37 
+Machine Latency: 4328
+Maq2: 0 36 21 8 7 30 5 28 13 12 4 24 29 22 
+Machine Latency: 3757
+Maq3: 0 17 20 32 39 1 14 25 35 26 34 6 18 2 33 
+Machine Latency: 4598
+
+Total Latency: 12683
+CPU Time: 0.202
+*********************************************
+I40j_3m_S1_4.txt
+Maq1: 0 19 9 16 38 22 28 35 6 23 34 37 33 40 
+Machine Latency: 3305
+Maq2: 0 7 2 5 24 18 25 27 32 26 14 21 13 31 
+Machine Latency: 3980
+Maq3: 0 29 8 20 36 11 15 39 4 17 3 12 30 1 10 
+Machine Latency: 3773
+
+Total Latency: 11058
+CPU Time: 0.218
+*********************************************
+I40j_3m_S1_5.txt
+Maq1: 0 13 30 27 28 4 17 21 19 11 3 35 
+Machine Latency: 2601
+Maq2: 0 2 39 34 1 37 7 25 22 6 10 23 29 33 
+Machine Latency: 3412
+Maq3: 0 38 8 36 9 26 14 5 31 24 20 40 15 32 12 16 18 
+Machine Latency: 3224
+
+Total Latency: 9237
+CPU Time: 0.218
+*********************************************
+I40j_3m_S2_1.txt
+Maq1: 0 21 29 10 18 6 16 19 14 9 12 8 20 2 36 
+Machine Latency: 5140
+Maq2: 0 33 13 26 28 37 7 4 17 11 24 34 25 
+Machine Latency: 4521
+Maq3: 0 1 38 30 23 5 39 27 22 31 3 40 15 35 32 
+Machine Latency: 4733
+
+Total Latency: 14394
+CPU Time: 0.202
+*********************************************
+I40j_3m_S2_2.txt
+Maq1: 0 40 32 3 16 7 8 23 22 37 1 4 21 18 
+Machine Latency: 3863
+Maq2: 0 24 29 33 36 15 39 31 20 10 34 38 2 9 13 
+Machine Latency: 3193
+Maq3: 0 5 26 25 19 14 35 11 28 30 17 27 12 6 
+Machine Latency: 3881
+
+Total Latency: 10937
+CPU Time: 0.202
+*********************************************
+I40j_3m_S2_3.txt
+Maq1: 0 26 22 29 6 27 36 4 39 33 25 19 37 12 8 
+Machine Latency: 4801
+Maq2: 0 2 35 30 32 9 3 15 10 38 34 7 21 
+Machine Latency: 4580
+Maq3: 0 40 28 5 16 20 13 11 23 14 31 17 1 18 24 
+Machine Latency: 5268
+
+Total Latency: 14649
+CPU Time: 0.202
+*********************************************
+I40j_3m_S2_4.txt
+Maq1: 0 19 21 32 5 26 4 38 24 16 1 11 14 31 39 15 
+Machine Latency: 5166
+Maq2: 0 23 29 10 25 12 18 28 9 40 27 13 33 6 36 
+Machine Latency: 4885
+Maq3: 0 35 3 8 22 20 30 37 17 34 7 2 
+Machine Latency: 3648
+
+Total Latency: 13699
+CPU Time: 0.202
+*********************************************
+I40j_3m_S2_5.txt
+Maq1: 0 33 30 7 4 8 2 3 10 17 22 38 20 
+Machine Latency: 4373
+Maq2: 0 32 1 11 16 37 5 29 36 13 34 26 35 14 40 39 
+Machine Latency: 5151
+Maq3: 0 9 27 19 28 21 25 6 15 24 12 18 23 31 
+Machine Latency: 4108
+
+Total Latency: 13632
+CPU Time: 0.202
+*********************************************
+I40j_3m_S3_1.txt
+Maq1: 0 20 26 22 5 37 7 39 34 8 13 33 25 4 
+Machine Latency: 5474
+Maq2: 0 11 40 23 21 9 32 29 3 35 18 24 31 12 15 6 
+Machine Latency: 4458
+Maq3: 0 36 14 27 30 19 38 16 10 28 2 17 1 
+Machine Latency: 4488
+
+Total Latency: 14420
+CPU Time: 0.202
+*********************************************
+I40j_3m_S3_2.txt
+Maq1: 0 40 11 1 34 8 2 5 12 13 16 15 22 26 25 
+Machine Latency: 5448
+Maq2: 0 36 29 3 30 9 28 31 20 10 6 4 38 27 
+Machine Latency: 4956
+Maq3: 0 35 23 24 18 14 39 33 32 17 19 7 37 21 
+Machine Latency: 5411
+
+Total Latency: 15815
+CPU Time: 0.202
+*********************************************
+I40j_3m_S3_3.txt
+Maq1: 0 25 4 14 6 17 18 23 19 37 1 20 5 34 27 11 
+Machine Latency: 4158
+Maq2: 0 31 33 28 2 8 36 9 13 26 38 29 10 16 
+Machine Latency: 4665
+Maq3: 0 22 7 39 30 32 15 12 40 24 35 21 3 
+Machine Latency: 4037
+
+Total Latency: 12860
+CPU Time: 0.202
+*********************************************
+I40j_3m_S3_4.txt
+Maq1: 0 5 27 33 4 20 31 2 21 32 1 9 34 
+Machine Latency: 3781
+Maq2: 0 30 23 8 29 13 24 17 40 35 26 12 22 28 15 37 3 
+Machine Latency: 4796
+Maq3: 0 11 14 18 19 10 25 39 38 16 6 7 36 
+Machine Latency: 4702
+
+Total Latency: 13279
+CPU Time: 0.202
+*********************************************
+I40j_3m_S3_5.txt
+Maq1: 0 7 8 33 10 34 9 15 18 26 5 6 14 30 
+Machine Latency: 3990
+Maq2: 0 36 11 16 22 25 13 27 29 20 35 3 38 40 12 
+Machine Latency: 5055
+Maq3: 0 31 17 19 39 4 32 23 1 24 21 37 2 28 
+Machine Latency: 3986
+
+Total Latency: 13031
+CPU Time: 0.202
+*********************************************
+I40j_4m_S1_1.txt
+Maq1: 0 8 32 27 36 18 3 16 40 38 25 
+Machine Latency: 1757
+Maq2: 0 4 39 34 26 12 17 29 35 23 
+Machine Latency: 1821
+Maq3: 0 10 11 21 5 9 7 14 33 37 6 22 
+Machine Latency: 2182
+Maq4: 0 13 31 24 20 19 1 15 2 28 30 
+Machine Latency: 1472
+
+Total Latency: 7232
+CPU Time: 0.202
+*********************************************
+I40j_4m_S1_2.txt
+Maq1: 0 37 26 38 12 11 29 23 30 25 31 1 
+Machine Latency: 2260
+Maq2: 0 19 39 35 6 3 15 9 34 7 
+Machine Latency: 2021
+Maq3: 0 36 27 33 5 18 14 22 10 28 21 8 
+Machine Latency: 2012
+Maq4: 0 16 20 17 24 2 4 32 13 40 
+Machine Latency: 2320
+
+Total Latency: 8613
+CPU Time: 0.202
+*********************************************
+I40j_4m_S1_3.txt
+Maq1: 0 36 21 30 5 19 34 35 10 33 22 
+Machine Latency: 2417
+Maq2: 0 8 7 20 28 25 12 4 24 29 
+Machine Latency: 2168
+Maq3: 0 17 3 9 23 38 16 13 27 26 37 
+Machine Latency: 2778
+Maq4: 0 40 32 39 1 11 14 6 18 2 31 15 
+Machine Latency: 2497
+
+Total Latency: 9860
+CPU Time: 0.203
+*********************************************
+I40j_4m_S1_4.txt
+Maq1: 0 7 2 5 17 11 15 25 30 3 37 
+Machine Latency: 2333
+Maq2: 0 19 9 8 20 36 38 12 35 6 1 10 40 
+Machine Latency: 2331
+Maq3: 0 29 16 27 32 26 4 23 34 14 21 
+Machine Latency: 2217
+Maq4: 0 24 22 28 18 39 31 33 13 
+Machine Latency: 1850
+
+Total Latency: 8731
+CPU Time: 0.218
+*********************************************
+I40j_4m_S1_5.txt
+Maq1: 0 2 28 26 10 24 17 16 4 33 
+Machine Latency: 1555
+Maq2: 0 38 1 39 9 30 27 34 11 21 37 35 
+Machine Latency: 1736
+Maq3: 0 5 8 36 31 25 22 6 19 32 12 
+Machine Latency: 1984
+Maq4: 0 13 14 7 20 40 15 29 3 18 23 
+Machine Latency: 1985
+
+Total Latency: 7260
+CPU Time: 0.203
+*********************************************
+I40j_4m_S2_1.txt
+Maq1: 0 9 23 5 39 35 7 30 11 20 2 
+Machine Latency: 2665
+Maq2: 0 33 29 10 18 6 34 19 14 31 3 40 
+Machine Latency: 3044
+Maq3: 0 1 38 13 26 37 27 8 17 25 36 
+Machine Latency: 2826
+Maq4: 0 21 12 4 22 24 16 28 32 15 
+Machine Latency: 2720
+
+Total Latency: 11255
+CPU Time: 0.202
+*********************************************
+I40j_4m_S2_2.txt
+Maq1: 0 5 15 39 32 3 16 33 20 38 9 13 30 
+Machine Latency: 2266
+Maq2: 0 40 10 34 11 14 8 6 28 
+Machine Latency: 1822
+Maq3: 0 7 26 25 23 1 19 2 35 18 21 
+Machine Latency: 2337
+Maq4: 0 24 29 4 36 31 22 37 17 27 12 
+Machine Latency: 2066
+
+Total Latency: 8491
+CPU Time: 0.218
+*********************************************
+I40j_4m_S2_3.txt
+Maq1: 0 11 28 17 1 25 19 31 37 32 
+Machine Latency: 2879
+Maq2: 0 40 22 7 23 14 16 20 18 34 21 
+Machine Latency: 3343
+Maq3: 0 2 29 13 6 9 36 33 15 10 38 
+Machine Latency: 2328
+Maq4: 0 26 27 35 30 5 3 4 39 12 8 24 
+Machine Latency: 2926
+
+Total Latency: 11476
+CPU Time: 0.202
+*********************************************
+I40j_4m_S2_4.txt
+Maq1: 0 35 3 38 32 34 36 21 15 7 
+Machine Latency: 2212
+Maq2: 0 22 20 4 1 11 9 40 13 12 2 
+Machine Latency: 2985
+Maq3: 0 23 29 10 26 18 19 5 17 33 30 6 
+Machine Latency: 2915
+Maq4: 0 28 25 27 24 16 39 37 31 8 14 
+Machine Latency: 2867
+
+Total Latency: 10979
+CPU Time: 0.202
+*********************************************
+I40j_4m_S2_5.txt
+Maq1: 0 32 1 11 16 37 23 25 40 31 15 
+Machine Latency: 2549
+Maq2: 0 2 36 13 30 7 10 22 8 20 14 
+Machine Latency: 2910
+Maq3: 0 33 21 4 27 19 28 3 38 39 26 17 
+Machine Latency: 2552
+Maq4: 0 9 29 5 24 12 6 34 35 18 
+Machine Latency: 2547
+
+Total Latency: 10558
+CPU Time: 0.218
+*********************************************
+I40j_4m_S3_1.txt
+Maq1: 0 11 40 23 21 27 7 10 14 19 13 33 39 16 
+Machine Latency: 2972
+Maq2: 0 20 26 34 9 30 3 4 28 25 
+Machine Latency: 2744
+Maq3: 0 17 32 29 22 6 18 31 8 35 2 
+Machine Latency: 3175
+Maq4: 0 36 24 5 38 1 37 12 15 
+Machine Latency: 2572
+
+Total Latency: 11463
+CPU Time: 0.218
+*********************************************
+I40j_4m_S3_2.txt
+Maq1: 0 40 11 1 34 19 18 14 39 33 37 21 5 13 
+Machine Latency: 3923
+Maq2: 0 9 16 28 31 20 25 38 6 
+Machine Latency: 2361
+Maq3: 0 36 29 17 30 3 12 2 26 10 27 
+Machine Latency: 2719
+Maq4: 0 35 23 24 4 7 32 15 22 8 
+Machine Latency: 3376
+
+Total Latency: 12379
+CPU Time: 0.202
+*********************************************
+I40j_4m_S3_3.txt
+Maq1: 0 25 4 14 30 29 20 26 28 21 3 16 
+Machine Latency: 2845
+Maq2: 0 10 37 1 15 34 27 24 
+Machine Latency: 1958
+Maq3: 0 31 33 22 7 39 8 6 12 40 32 2 
+Machine Latency: 2376
+Maq4: 0 17 18 23 19 9 13 36 38 35 5 11 
+Machine Latency: 2748
+
+Total Latency: 9927
+CPU Time: 0.202
+*********************************************
+I40j_4m_S3_4.txt
+Maq1: 0 11 14 13 10 16 6 9 36 3 
+Machine Latency: 2812
+Maq2: 0 5 27 33 40 35 19 7 15 1 
+Machine Latency: 2416
+Maq3: 0 30 23 8 29 31 25 22 32 26 37 38 12 
+Machine Latency: 2820
+Maq4: 0 24 17 18 4 20 39 21 28 2 34 
+Machine Latency: 2393
+
+Total Latency: 10441
+CPU Time: 0.218
+*********************************************
+I40j_4m_S3_5.txt
+Maq1: 0 36 11 33 4 35 16 20 29 28 37 3 
+Machine Latency: 2888
+Maq2: 0 31 17 39 22 25 13 27 15 6 2 12 
+Machine Latency: 2891
+Maq3: 0 23 18 26 32 1 24 21 14 
+Machine Latency: 2436
+Maq4: 0 7 8 19 10 34 9 38 40 30 5 
+Machine Latency: 1997
+
+Total Latency: 10212
+CPU Time: 0.202
+*********************************************
+I40j_5m_S1_1.txt
+Maq1: 0 13 31 18 32 3 20 19 35 1 40 22 
+Machine Latency: 1442
+Maq2: 0 10 11 21 4 7 25 28 6 
+Machine Latency: 1108
+Maq3: 0 8 24 16 5 27 33 37 23 
+Machine Latency: 1270
+Maq4: 0 34 26 29 15 2 38 
+Machine Latency: 1145
+Maq5: 0 39 9 36 14 12 17 30 
+Machine Latency: 1053
+
+Total Latency: 6018
+CPU Time: 0.218
+*********************************************
+I40j_5m_S1_2.txt
+Maq1: 0 37 26 38 12 11 29 32 13 40 
+Machine Latency: 1379
+Maq2: 0 16 20 23 24 4 30 34 
+Machine Latency: 1383
+Maq3: 0 39 35 17 3 21 8 31 
+Machine Latency: 1401
+Maq4: 0 36 27 5 18 6 33 9 2 25 1 
+Machine Latency: 1672
+Maq5: 0 19 10 14 22 28 15 7 
+Machine Latency: 1443
+
+Total Latency: 7278
+CPU Time: 0.218
+*********************************************
+I40j_5m_S1_3.txt
+Maq1: 0 17 20 33 13 12 24 15 
+Machine Latency: 1483
+Maq2: 0 8 7 32 39 38 25 4 2 14 
+Machine Latency: 1741
+Maq3: 0 36 1 21 30 5 28 10 27 22 
+Machine Latency: 1716
+Maq4: 0 16 19 34 6 18 26 37 
+Machine Latency: 1691
+Maq5: 0 40 11 3 9 23 35 31 29 
+Machine Latency: 1563
+
+Total Latency: 8194
+CPU Time: 0.218
+*********************************************
+I40j_5m_S1_4.txt
+Maq1: 0 4 38 12 14 21 37 
+Machine Latency: 1294
+Maq2: 0 7 5 24 22 25 39 31 40 
+Machine Latency: 1528
+Maq3: 0 29 8 20 36 34 11 15 3 17 33 
+Machine Latency: 1620
+Maq4: 0 19 9 16 27 32 26 30 1 10 
+Machine Latency: 1499
+Maq5: 0 2 18 28 35 6 23 13 
+Machine Latency: 1326
+
+Total Latency: 7267
+CPU Time: 0.218
+*********************************************
+I40j_5m_S1_5.txt
+Maq1: 0 27 28 30 32 4 21 35 
+Machine Latency: 1166
+Maq2: 0 36 9 26 1 37 10 23 6 16 
+Machine Latency: 1301
+Maq3: 0 38 7 25 14 5 8 11 19 12 
+Machine Latency: 1380
+Maq4: 0 2 39 34 31 17 22 3 18 
+Machine Latency: 1338
+Maq5: 0 13 24 20 40 15 29 33 
+Machine Latency: 968
+
+Total Latency: 6153
+CPU Time: 0.218
+*********************************************
+I40j_5m_S2_1.txt
+Maq1: 0 9 13 26 37 7 8 20 
+Machine Latency: 1687
+Maq2: 0 33 29 24 28 25 36 2 
+Machine Latency: 1741
+Maq3: 0 21 12 30 27 22 31 3 32 
+Machine Latency: 1836
+Maq4: 0 1 38 10 18 6 16 4 17 11 
+Machine Latency: 1944
+Maq5: 0 23 5 39 35 34 19 14 40 15 
+Machine Latency: 2152
+
+Total Latency: 9360
+CPU Time: 0.218
+*********************************************
+I40j_5m_S2_2.txt
+Maq1: 0 5 15 39 7 19 11 6 4 21 
+Machine Latency: 1495
+Maq2: 0 16 25 22 37 17 27 12 
+Machine Latency: 1224
+Maq3: 0 24 29 33 36 34 23 8 9 13 
+Machine Latency: 1624
+Maq4: 0 40 10 3 26 38 2 35 18 
+Machine Latency: 1386
+Maq5: 0 14 31 32 20 28 30 1 
+Machine Latency: 1319
+
+Total Latency: 7048
+CPU Time: 0.219
+*********************************************
+I40j_5m_S2_3.txt
+Maq1: 0 4 13 11 25 19 34 21 
+Machine Latency: 1705
+Maq2: 0 15 6 28 38 30 24 7 8 
+Machine Latency: 2088
+Maq3: 0 2 29 39 23 14 16 20 18 10 
+Machine Latency: 2074
+Maq4: 0 40 22 1 5 33 17 12 
+Machine Latency: 1579
+Maq5: 0 26 27 36 35 9 3 31 37 32 
+Machine Latency: 2116
+
+Total Latency: 9562
+CPU Time: 0.218
+*********************************************
+I40j_5m_S2_4.txt
+Maq1: 0 20 4 38 24 35 22 6 34 
+Machine Latency: 1506
+Maq2: 0 1 11 36 27 7 2 
+Machine Latency: 1456
+Maq3: 0 18 19 5 26 15 9 40 17 
+Machine Latency: 2075
+Maq4: 0 23 29 10 16 39 37 31 30 
+Machine Latency: 1876
+Maq5: 0 28 25 21 32 3 8 13 12 33 14 
+Machine Latency: 2181
+
+Total Latency: 9094
+CPU Time: 0.218
+*********************************************
+I40j_5m_S2_5.txt
+Maq1: 0 33 21 4 27 19 28 3 14 34 31 
+Machine Latency: 2053
+Maq2: 0 9 29 23 1 11 22 8 18 
+Machine Latency: 1625
+Maq3: 0 2 36 13 30 7 35 20 26 
+Machine Latency: 1788
+Maq4: 0 32 25 37 5 16 10 17 40 
+Machine Latency: 1753
+Maq5: 0 15 24 12 6 38 39 
+Machine Latency: 1689
+
+Total Latency: 8908
+CPU Time: 0.218
+*********************************************
+I40j_5m_S3_1.txt
+Maq1: 0 36 14 27 7 22 34 3 16 33 
+Machine Latency: 2156
+Maq2: 0 17 15 6 37 12 
+Machine Latency: 1287
+Maq3: 0 11 40 23 21 9 32 29 35 18 1 39 
+Machine Latency: 2078
+Maq4: 0 20 26 8 5 38 24 31 4 
+Machine Latency: 1945
+Maq5: 0 25 30 19 13 10 28 2 
+Machine Latency: 2173
+
+Total Latency: 9639
+CPU Time: 0.219
+*********************************************
+I40j_5m_S3_2.txt
+Maq1: 0 40 11 1 34 8 37 21 5 27 
+Machine Latency: 2143
+Maq2: 0 36 18 29 3 6 25 38 
+Machine Latency: 1383
+Maq3: 0 14 39 17 30 16 4 7 15 
+Machine Latency: 1904
+Maq4: 0 9 28 31 20 13 32 10 26 
+Machine Latency: 2570
+Maq5: 0 2 33 35 23 24 12 22 19 
+Machine Latency: 2195
+
+Total Latency: 10195
+CPU Time: 0.218
+*********************************************
+I40j_5m_S3_3.txt
+Maq1: 0 22 9 18 23 19 39 10 38 29 
+Machine Latency: 1807
+Maq2: 0 31 2 3 5 34 16 
+Machine Latency: 1298
+Maq3: 0 17 14 6 30 32 8 15 27 
+Machine Latency: 1558
+Maq4: 0 25 4 7 1 20 26 37 28 21 
+Machine Latency: 1710
+Maq5: 0 12 36 33 40 24 13 11 35 
+Machine Latency: 1938
+
+Total Latency: 8311
+CPU Time: 0.218
+*********************************************
+I40j_5m_S3_4.txt
+Maq1: 0 11 14 13 19 21 7 27 12 
+Machine Latency: 1953
+Maq2: 0 24 31 39 40 25 22 35 6 
+Machine Latency: 1791
+Maq3: 0 30 23 8 29 32 26 36 38 2 
+Machine Latency: 1470
+Maq4: 0 33 17 18 4 20 3 5 37 34 
+Machine Latency: 1860
+Maq5: 0 10 16 28 15 1 9 
+Machine Latency: 1686
+
+Total Latency: 8760
+CPU Time: 0.218
+*********************************************
+I40j_5m_S3_5.txt
+Maq1: 0 31 17 39 22 25 13 40 5 38 
+Machine Latency: 1781
+Maq2: 0 7 4 35 16 20 29 26 12 
+Machine Latency: 1597
+Maq3: 0 19 10 34 24 9 15 18 6 30 
+Machine Latency: 2109
+Maq4: 0 36 11 8 21 27 32 14 28 
+Machine Latency: 1772
+Maq5: 0 23 33 1 37 2 3 
+Machine Latency: 1373
+
+Total Latency: 8632
+CPU Time: 0.218
+*********************************************
+I40j_2m_S1_1.txt
+Maq1: 0 8 24 10 4 39 34 21 27 36 5 2 17 14 12 28 30 33 15 35 
+Machine Latency: 6045
+Maq2: 0 13 31 18 32 3 9 20 19 1 11 7 26 29 37 6 22 16 40 38 25 23 
+Machine Latency: 7280
+
+Total Latency: 13325
+CPU Time: 0.39
+*********************************************
+I40j_2m_S1_2.txt
+Maq1: 0 36 27 33 6 23 19 3 39 35 17 24 2 4 30 34 25 21 8 31 1 
+Machine Latency: 8234
+Maq2: 0 37 26 10 5 18 38 12 11 29 16 20 14 22 15 9 28 32 13 40 7 
+Machine Latency: 7544
+
+Total Latency: 15778
+CPU Time: 0.39
+*********************************************
+I40j_2m_S1_3.txt
+Maq1: 0 40 11 3 32 39 1 20 28 10 35 5 18 34 6 33 9 25 12 27 29 22 
+Machine Latency: 9136
+Maq2: 0 17 36 21 30 8 7 38 16 13 23 19 4 2 31 26 37 14 24 15 
+Machine Latency: 9047
+
+Total Latency: 18183
+CPU Time: 0.405
+*********************************************
+I40j_2m_S1_4.txt
+Maq1: 0 19 9 16 2 5 24 22 7 27 32 35 6 39 4 17 3 37 33 13 40 
+Machine Latency: 7688
+Maq2: 0 29 8 20 36 11 15 25 18 38 12 34 28 23 31 26 14 1 10 30 21 
+Machine Latency: 8294
+
+Total Latency: 15982
+CPU Time: 0.406
+*********************************************
+I40j_2m_S1_5.txt
+Maq1: 0 38 1 7 27 28 14 5 8 2 39 34 32 25 11 21 19 6 23 35 16 
+Machine Latency: 6504
+Maq2: 0 13 30 36 9 26 10 24 20 40 31 17 22 15 29 37 3 18 4 33 12 
+Machine Latency: 6604
+
+Total Latency: 13108
+CPU Time: 0.39
+*********************************************
+I40j_2m_S2_1.txt
+Maq1: 0 1 38 30 23 5 25 37 35 22 39 19 33 36 24 28 27 3 40 11 20 15 
+Machine Latency: 11015
+Maq2: 0 21 29 10 18 6 16 4 13 26 9 7 14 2 34 12 8 17 32 31 
+Machine Latency: 9540
+
+Total Latency: 20555
+CPU Time: 0.39
+*********************************************
+I40j_2m_S2_2.txt
+Maq1: 0 40 32 3 26 25 23 10 33 36 34 38 22 35 28 30 1 2 6 21 
+Machine Latency: 7746
+Maq2: 0 5 15 39 29 11 24 16 7 19 14 31 20 9 37 17 27 8 12 4 18 13 
+Machine Latency: 8014
+
+Total Latency: 15760
+CPU Time: 0.39
+*********************************************
+I40j_2m_S2_3.txt
+Maq1: 0 2 20 13 28 29 6 16 39 23 14 4 37 33 19 17 1 10 38 34 24 
+Machine Latency: 9823
+Maq2: 0 11 26 27 36 35 30 5 3 9 32 40 22 7 15 31 25 12 8 21 18 
+Machine Latency: 10938
+
+Total Latency: 20761
+CPU Time: 0.39
+*********************************************
+I40j_2m_S2_4.txt
+Maq1: 0 23 29 10 25 21 32 4 38 18 28 13 11 9 40 39 36 31 6 34 7 2 
+Machine Latency: 10041
+Maq2: 0 1 19 24 35 3 8 22 20 30 37 12 5 26 15 27 16 33 17 14 
+Machine Latency: 9472
+
+Total Latency: 19513
+CPU Time: 0.39
+*********************************************
+I40j_2m_S2_5.txt
+Maq1: 0 9 1 4 27 19 28 16 37 5 29 23 24 12 6 15 10 17 22 8 3 14 
+Machine Latency: 10148
+Maq2: 0 33 21 30 7 11 32 25 2 36 13 34 38 39 26 35 20 40 31 18 
+Machine Latency: 8950
+
+Total Latency: 19098
+CPU Time: 0.39
+*********************************************
+I40j_2m_S3_1.txt
+Maq1: 0 11 40 23 21 27 7 18 26 22 5 38 1 24 31 12 6 17 15 13 33 16 4 
+Machine Latency: 10670
+Maq2: 0 36 9 32 29 3 8 35 34 14 30 19 10 20 25 39 37 28 2 
+Machine Latency: 9814
+
+Total Latency: 20484
+CPU Time: 0.39
+*********************************************
+I40j_2m_S3_2.txt
+Maq1: 0 40 35 23 19 18 14 39 3 21 5 12 13 16 10 6 4 7 26 25 
+Machine Latency: 11182
+Maq2: 0 36 29 17 30 9 11 1 34 8 2 28 31 20 24 32 33 37 15 22 27 38 
+Machine Latency: 11489
+
+Total Latency: 22671
+CPU Time: 0.39
+*********************************************
+I40j_2m_S3_3.txt
+Maq1: 0 17 18 23 19 8 6 12 36 9 37 1 20 5 14 29 10 38 35 21 16 
+Machine Latency: 8775
+Maq2: 0 22 25 4 7 39 30 32 31 33 40 13 26 28 2 3 15 34 27 24 11 
+Machine Latency: 9309
+
+Total Latency: 18084
+CPU Time: 0.374
+*********************************************
+I40j_2m_S3_4.txt
+Maq1: 0 5 27 33 4 23 18 19 10 39 40 35 26 2 21 7 38 36 9 34 
+Machine Latency: 9291
+Maq2: 0 30 8 29 31 25 14 24 17 11 20 3 13 32 1 12 22 28 15 37 16 6 
+Machine Latency: 9978
+
+Total Latency: 19269
+CPU Time: 0.39
+*********************************************
+I40j_2m_S3_5.txt
+Maq1: 0 7 8 33 10 34 22 25 23 5 20 13 27 29 28 12 6 30 40 2 
+Machine Latency: 8814
+Maq2: 0 31 17 19 39 4 35 11 16 9 15 18 26 32 1 24 36 21 14 37 3 38 
+Machine Latency: 9827
+
+Total Latency: 18641
+CPU Time: 0.374
+*********************************************
+I40j_3m_S1_1.txt
+Maq1: 0 39 9 36 5 24 16 32 6 22 33 37 23 
+Machine Latency: 2893
+Maq2: 0 8 31 18 3 20 19 1 2 14 12 28 30 38 25 
+Machine Latency: 3266
+Maq3: 0 13 4 7 10 11 21 27 17 34 26 29 35 40 15 
+Machine Latency: 3090
+
+Total Latency: 9249
+CPU Time: 0.608
+*********************************************
+I40j_3m_S1_2.txt
+Maq1: 0 37 36 5 18 38 23 12 11 24 2 4 30 34 8 
+Machine Latency: 3134
+Maq2: 0 19 27 33 6 3 16 20 7 9 13 25 1 40 
+Machine Latency: 3901
+Maq3: 0 39 26 29 35 17 10 14 22 28 32 15 21 31 
+Machine Latency: 3967
+
+Total Latency: 11002
+CPU Time: 0.608
+*********************************************
+I40j_3m_S1_3.txt
+Maq1: 0 40 32 39 1 11 21 30 5 28 10 33 9 15 26 37 
+Machine Latency: 4128
+Maq2: 0 17 20 7 3 25 12 4 24 27 18 29 22 
+Machine Latency: 3941
+Maq3: 0 16 8 38 36 13 23 19 34 6 35 31 2 14 
+Machine Latency: 4586
+
+Total Latency: 12655
+CPU Time: 0.624
+*********************************************
+I40j_3m_S1_4.txt
+Maq1: 0 19 9 8 20 36 34 11 26 17 3 15 39 31 33 10 
+Machine Latency: 3982
+Maq2: 0 7 2 5 24 22 25 37 23 4 40 21 13 
+Machine Latency: 3438
+Maq3: 0 29 16 27 32 35 28 18 38 6 1 12 30 14 
+Machine Latency: 3618
+
+Total Latency: 11038
+CPU Time: 0.639
+*********************************************
+I40j_3m_S1_5.txt
+Maq1: 0 5 8 36 9 30 27 34 10 24 4 21 23 35 12 
+Machine Latency: 3298
+Maq2: 0 2 28 26 13 25 14 6 15 29 37 3 18 16 
+Machine Latency: 3071
+Maq3: 0 38 1 7 20 39 40 31 17 22 11 19 32 33 
+Machine Latency: 2854
+
+Total Latency: 9223
+CPU Time: 0.624
+*********************************************
+I40j_3m_S2_1.txt
+Maq1: 0 21 29 10 18 6 16 19 14 9 12 8 20 2 36 
+Machine Latency: 5140
+Maq2: 0 33 13 26 28 37 7 4 17 11 24 34 25 
+Machine Latency: 4521
+Maq3: 0 1 38 30 23 5 39 27 22 31 3 40 15 35 32 
+Machine Latency: 4733
+
+Total Latency: 14394
+CPU Time: 0.608
+*********************************************
+I40j_3m_S2_2.txt
+Maq1: 0 5 15 39 25 19 37 29 4 14 20 1 27 8 6 
+Machine Latency: 3432
+Maq2: 0 40 10 33 36 21 22 35 28 30 17 12 18 
+Machine Latency: 3751
+Maq3: 0 24 32 3 16 7 26 31 11 13 23 34 38 2 9 
+Machine Latency: 3641
+
+Total Latency: 10824
+CPU Time: 0.624
+*********************************************
+I40j_3m_S2_3.txt
+Maq1: 0 26 27 36 35 22 3 6 9 32 1 25 12 7 21 
+Machine Latency: 5013
+Maq2: 0 4 13 2 30 5 33 15 40 24 19 31 10 8 
+Machine Latency: 4694
+Maq3: 0 11 28 29 39 23 37 14 16 20 18 17 38 34 
+Machine Latency: 4797
+
+Total Latency: 14504
+CPU Time: 0.609
+*********************************************
+I40j_3m_S2_4.txt
+Maq1: 0 19 21 32 5 26 4 38 24 16 1 11 14 31 39 15 
+Machine Latency: 5166
+Maq2: 0 23 29 10 25 12 18 28 9 40 27 13 33 6 36 
+Machine Latency: 4885
+Maq3: 0 35 3 8 22 20 30 37 17 34 7 2 
+Machine Latency: 3648
+
+Total Latency: 13699
+CPU Time: 0.624
+*********************************************
+I40j_3m_S2_5.txt
+Maq1: 0 9 29 36 22 5 6 34 26 24 8 20 40 
+Machine Latency: 4150
+Maq2: 0 32 1 4 27 19 28 21 25 2 3 10 17 15 14 31 
+Machine Latency: 4680
+Maq3: 0 33 13 30 7 11 16 37 23 12 38 35 18 39 
+Machine Latency: 4671
+
+Total Latency: 13501
+CPU Time: 0.624
+*********************************************
+I40j_3m_S3_1.txt
+Maq1: 0 20 26 22 5 37 7 39 34 8 13 33 25 4 
+Machine Latency: 5474
+Maq2: 0 11 40 23 21 9 32 29 3 35 18 24 31 12 15 6 
+Machine Latency: 4458
+Maq3: 0 36 14 27 30 19 38 16 10 28 2 17 1 
+Machine Latency: 4488
+
+Total Latency: 14420
+CPU Time: 0.639
+*********************************************
+I40j_3m_S3_2.txt
+Maq1: 0 40 11 12 30 16 28 31 20 10 6 32 15 22 
+Machine Latency: 4736
+Maq2: 0 36 29 17 18 14 39 13 35 23 24 4 7 26 25 19 
+Machine Latency: 6019
+Maq3: 0 2 9 1 34 8 3 33 37 21 5 27 38 
+Machine Latency: 4866
+
+Total Latency: 15621
+CPU Time: 0.609
+*********************************************
+I40j_3m_S3_3.txt
+Maq1: 0 22 25 4 7 1 20 5 14 6 12 15 34 27 24 
+Machine Latency: 3958
+Maq2: 0 31 33 40 13 36 11 9 37 28 35 21 16 
+Machine Latency: 4135
+Maq3: 0 30 32 8 17 18 23 19 39 10 26 3 2 38 29 
+Machine Latency: 4625
+
+Total Latency: 12718
+CPU Time: 0.593
+*********************************************
+I40j_3m_S3_4.txt
+Maq1: 0 30 23 8 29 13 20 31 25 22 35 6 10 39 9 2 
+Machine Latency: 4347
+Maq2: 0 11 14 24 17 18 19 21 32 1 34 3 15 
+Machine Latency: 3648
+Maq3: 0 5 27 33 4 26 12 37 40 7 38 16 28 36 
+Machine Latency: 5257
+
+Total Latency: 13252
+CPU Time: 0.624
+*********************************************
+I40j_3m_S3_5.txt
+Maq1: 0 7 19 10 16 31 34 9 15 18 26 38 6 30 40 
+Machine Latency: 4294
+Maq2: 0 17 39 22 25 13 27 29 32 1 2 28 12 
+Machine Latency: 3897
+Maq3: 0 36 11 8 33 4 35 23 5 20 24 21 14 37 3 
+Machine Latency: 4758
+
+Total Latency: 12949
+CPU Time: 0.593
+*********************************************
+I40j_4m_S1_1.txt
+Maq1: 0 13 19 20 5 2 17 12 28 30 
+Machine Latency: 1641
+Maq2: 0 18 32 3 9 27 36 14 6 22 33 
+Machine Latency: 1781
+Maq3: 0 39 34 26 29 35 40 38 25 
+Machine Latency: 1753
+Maq4: 0 8 31 24 10 11 21 4 16 1 15 7 37 23 
+Machine Latency: 2046
+
+Total Latency: 7221
+CPU Time: 0.873
+*********************************************
+I40j_4m_S1_2.txt
+Maq1: 0 37 26 38 12 11 29 23 30 25 31 1 
+Machine Latency: 2260
+Maq2: 0 19 39 35 6 3 15 9 34 7 
+Machine Latency: 2021
+Maq3: 0 36 27 33 5 18 14 22 10 28 21 8 
+Machine Latency: 2012
+Maq4: 0 16 20 17 24 2 4 32 13 40 
+Machine Latency: 2320
+
+Total Latency: 8613
+CPU Time: 0.842
+*********************************************
+I40j_4m_S1_3.txt
+Maq1: 0 36 21 30 5 19 34 35 10 33 22 
+Machine Latency: 2417
+Maq2: 0 8 7 20 28 25 12 4 24 29 
+Machine Latency: 2168
+Maq3: 0 17 3 9 23 38 16 13 27 26 37 
+Machine Latency: 2778
+Maq4: 0 40 32 39 1 11 14 6 18 2 31 15 
+Machine Latency: 2497
+
+Total Latency: 9860
+CPU Time: 0.842
+*********************************************
+I40j_4m_S1_4.txt
+Maq1: 0 4 28 35 6 38 34 14 33 21 
+Machine Latency: 2373
+Maq2: 0 29 16 27 32 15 39 23 31 40 
+Machine Latency: 1869
+Maq3: 0 7 2 5 24 22 26 17 37 13 10 
+Machine Latency: 2316
+Maq4: 0 19 9 8 20 36 11 25 18 1 12 30 3 
+Machine Latency: 2081
+
+Total Latency: 8639
+CPU Time: 0.873
+*********************************************
+I40j_4m_S1_5.txt
+Maq1: 0 2 28 26 10 24 17 16 4 33 
+Machine Latency: 1555
+Maq2: 0 38 1 39 9 30 27 34 11 21 37 35 
+Machine Latency: 1736
+Maq3: 0 5 8 36 31 25 22 6 19 32 12 
+Machine Latency: 1984
+Maq4: 0 13 14 7 20 40 15 29 3 18 23 
+Machine Latency: 1985
+
+Total Latency: 7260
+CPU Time: 0.858
+*********************************************
+I40j_4m_S2_1.txt
+Maq1: 0 1 38 35 7 4 17 32 20 15 
+Machine Latency: 2848
+Maq2: 0 33 29 10 18 6 16 24 34 2 36 
+Machine Latency: 2594
+Maq3: 0 19 14 39 23 5 25 37 31 3 40 11 
+Machine Latency: 3221
+Maq4: 0 21 12 30 27 22 26 9 13 28 8 
+Machine Latency: 2578
+
+Total Latency: 11241
+CPU Time: 0.827
+*********************************************
+I40j_4m_S2_2.txt
+Maq1: 0 16 33 36 34 23 8 12 30 
+Machine Latency: 1704
+Maq2: 0 5 15 39 38 22 3 10 9 37 35 1 13 
+Machine Latency: 2607
+Maq3: 0 7 26 25 19 14 31 11 28 2 18 
+Machine Latency: 2026
+Maq4: 0 40 32 20 24 29 4 21 17 27 6 
+Machine Latency: 2131
+
+Total Latency: 8468
+CPU Time: 0.873
+*********************************************
+I40j_4m_S2_3.txt
+Maq1: 0 40 14 4 39 23 32 37 7 21 
+Machine Latency: 2685
+Maq2: 0 11 17 9 20 8 16 25 12 
+Machine Latency: 2489
+Maq3: 0 26 22 1 27 36 35 30 33 19 38 24 
+Machine Latency: 3062
+Maq4: 0 2 29 13 6 28 5 31 3 15 10 18 34 
+Machine Latency: 3104
+
+Total Latency: 11340
+CPU Time: 0.827
+*********************************************
+I40j_4m_S2_4.txt
+Maq1: 0 28 29 22 38 13 12 40 27 7 2 
+Machine Latency: 2864
+Maq2: 0 19 5 26 20 23 3 8 33 6 34 
+Machine Latency: 2679
+Maq3: 0 18 10 4 24 35 16 39 15 9 31 
+Machine Latency: 2605
+Maq4: 0 1 32 25 11 36 21 30 37 17 14 
+Machine Latency: 2735
+
+Total Latency: 10883
+CPU Time: 0.843
+*********************************************
+I40j_4m_S2_5.txt
+Maq1: 0 32 1 11 16 37 23 25 40 31 15 
+Machine Latency: 2549
+Maq2: 0 2 36 13 30 7 10 22 8 20 14 
+Machine Latency: 2910
+Maq3: 0 33 21 4 27 19 28 3 38 39 26 17 
+Machine Latency: 2552
+Maq4: 0 9 29 5 24 12 6 34 35 18 
+Machine Latency: 2547
+
+Total Latency: 10558
+CPU Time: 0.842
+*********************************************
+I40j_4m_S3_1.txt
+Maq1: 0 20 26 22 6 18 24 31 12 39 
+Machine Latency: 2666
+Maq2: 0 36 14 19 10 28 2 17 15 13 
+Machine Latency: 2891
+Maq3: 0 21 27 7 37 32 29 9 30 35 34 33 
+Machine Latency: 3056
+Maq4: 0 11 40 23 3 8 5 38 16 1 25 4 
+Machine Latency: 2690
+
+Total Latency: 11303
+CPU Time: 0.858
+*********************************************
+I40j_4m_S3_2.txt
+Maq1: 0 14 39 18 2 33 37 15 22 27 
+Machine Latency: 2563
+Maq2: 0 36 29 17 30 9 28 31 20 21 5 19 
+Machine Latency: 3318
+Maq3: 0 40 11 1 34 8 3 16 4 6 25 38 
+Machine Latency: 3155
+Maq4: 0 35 23 24 12 13 32 7 26 10 
+Machine Latency: 3202
+
+Total Latency: 12238
+CPU Time: 0.827
+*********************************************
+I40j_4m_S3_3.txt
+Maq1: 0 25 4 7 1 36 33 37 3 2 34 16 
+Machine Latency: 2601
+Maq2: 0 17 18 23 24 13 26 28 27 11 
+Machine Latency: 2319
+Maq3: 0 22 5 14 30 29 20 10 38 35 21 
+Machine Latency: 2672
+Maq4: 0 31 19 39 8 6 12 15 9 40 32 
+Machine Latency: 2295
+
+Total Latency: 9887
+CPU Time: 0.827
+*********************************************
+I40j_4m_S3_4.txt
+Maq1: 0 5 27 33 17 40 35 19 10 37 3 15 
+Machine Latency: 3263
+Maq2: 0 11 29 13 20 39 21 7 38 2 
+Machine Latency: 2193
+Maq3: 0 24 28 31 25 22 32 1 9 34 
+Machine Latency: 2726
+Maq4: 0 30 23 8 14 18 4 26 12 16 6 36 
+Machine Latency: 2108
+
+Total Latency: 10290
+CPU Time: 0.858
+*********************************************
+I40j_4m_S3_5.txt
+Maq1: 0 7 22 25 13 27 2 3 26 38 
+Machine Latency: 2377
+Maq2: 0 20 35 16 9 15 6 24 21 37 
+Machine Latency: 2601
+Maq3: 0 36 11 8 33 10 34 14 1 18 40 30 
+Machine Latency: 2737
+Maq4: 0 31 17 19 39 4 32 23 5 29 28 12 
+Machine Latency: 2485
+
+Total Latency: 10200
+CPU Time: 0.827
+*********************************************
+I40j_5m_S1_1.txt
+Maq1: 0 8 31 24 20 19 1 40 35 23 
+Machine Latency: 1145
+Maq2: 0 13 4 16 32 6 22 37 
+Machine Latency: 952
+Maq3: 0 39 34 21 27 36 14 38 25 
+Machine Latency: 1210
+Maq4: 0 18 3 9 7 26 12 15 33 
+Machine Latency: 1251
+Maq5: 0 10 11 5 29 2 17 28 30 
+Machine Latency: 1432
+
+Total Latency: 5990
+CPU Time: 1.123
+*********************************************
+I40j_5m_S1_2.txt
+Maq1: 0 17 3 15 30 34 25 
+Machine Latency: 1300
+Maq2: 0 16 20 24 2 4 9 13 40 
+Machine Latency: 1868
+Maq3: 0 37 36 5 18 38 12 11 29 1 7 
+Machine Latency: 1342
+Maq4: 0 19 27 33 26 10 14 22 28 32 
+Machine Latency: 1340
+Maq5: 0 39 35 6 23 21 8 31 
+Machine Latency: 1363
+
+Total Latency: 7213
+CPU Time: 1.108
+*********************************************
+I40j_5m_S1_3.txt
+Maq1: 0 17 20 33 13 12 24 15 
+Machine Latency: 1483
+Maq2: 0 8 7 32 39 38 25 4 2 14 
+Machine Latency: 1741
+Maq3: 0 36 1 21 30 5 28 10 27 22 
+Machine Latency: 1716
+Maq4: 0 16 19 34 6 18 26 37 
+Machine Latency: 1691
+Maq5: 0 40 11 3 9 23 35 31 29 
+Machine Latency: 1563
+
+Total Latency: 8194
+CPU Time: 1.092
+*********************************************
+I40j_5m_S1_4.txt
+Maq1: 0 19 9 16 27 32 12 34 17 3 
+Machine Latency: 1432
+Maq2: 0 7 28 35 6 23 31 40 
+Machine Latency: 1374
+Maq3: 0 29 8 20 36 11 15 39 25 30 21 
+Machine Latency: 1591
+Maq4: 0 4 38 22 26 14 1 10 
+Machine Latency: 1470
+Maq5: 0 2 5 24 18 37 33 13 
+Machine Latency: 1296
+
+Total Latency: 7163
+CPU Time: 1.108
+*********************************************
+I40j_5m_S1_5.txt
+Maq1: 0 36 9 26 14 6 10 37 3 18 
+Machine Latency: 1312
+Maq2: 0 13 30 27 28 4 17 16 21 
+Machine Latency: 1144
+Maq3: 0 5 8 39 34 23 29 33 
+Machine Latency: 1162
+Maq4: 0 38 1 7 25 22 11 19 35 
+Machine Latency: 1234
+Maq5: 0 2 31 24 20 40 15 32 12 
+Machine Latency: 1268
+
+Total Latency: 6120
+CPU Time: 1.139
+*********************************************
+I40j_5m_S2_1.txt
+Maq1: 0 9 13 26 37 7 8 20 
+Machine Latency: 1687
+Maq2: 0 33 29 24 28 25 36 2 
+Machine Latency: 1741
+Maq3: 0 21 12 30 27 22 31 3 32 
+Machine Latency: 1836
+Maq4: 0 1 38 10 18 6 16 4 17 11 
+Machine Latency: 1944
+Maq5: 0 23 5 39 35 34 19 14 40 15 
+Machine Latency: 2152
+
+Total Latency: 9360
+CPU Time: 1.061
+*********************************************
+I40j_5m_S2_2.txt
+Maq1: 0 14 31 11 19 2 30 6 
+Machine Latency: 1448
+Maq2: 0 24 29 4 36 21 17 27 
+Machine Latency: 1095
+Maq3: 0 7 26 25 23 34 38 22 8 12 
+Machine Latency: 1759
+Maq4: 0 5 15 39 32 20 37 35 28 18 
+Machine Latency: 1366
+Maq5: 0 40 10 3 16 33 1 9 13 
+Machine Latency: 1292
+
+Total Latency: 6960
+CPU Time: 1.108
+*********************************************
+I40j_5m_S2_3.txt
+Maq1: 0 40 36 35 9 3 32 18 34 
+Machine Latency: 2154
+Maq2: 0 4 13 6 21 19 31 17 12 
+Machine Latency: 1999
+Maq3: 0 2 29 22 1 27 7 15 10 38 
+Machine Latency: 2224
+Maq4: 0 26 39 23 37 33 14 24 
+Machine Latency: 1420
+Maq5: 0 11 28 30 5 16 20 8 25 
+Machine Latency: 1723
+
+Total Latency: 9520
+CPU Time: 1.076
+*********************************************
+I40j_5m_S2_4.txt
+Maq1: 0 1 32 4 24 16 8 33 6 
+Machine Latency: 1688
+Maq2: 0 35 3 38 13 12 5 36 31 
+Machine Latency: 1762
+Maq3: 0 28 25 11 9 40 27 7 2 
+Machine Latency: 1945
+Maq4: 0 23 29 22 39 37 21 15 
+Machine Latency: 1574
+Maq5: 0 20 30 10 26 18 19 34 17 14 
+Machine Latency: 2082
+
+Total Latency: 9051
+CPU Time: 1.092
+*********************************************
+I40j_5m_S2_5.txt
+Maq1: 0 33 21 4 27 19 28 3 14 34 31 
+Machine Latency: 2053
+Maq2: 0 9 29 23 1 11 22 8 18 
+Machine Latency: 1625
+Maq3: 0 2 36 13 30 7 35 20 26 
+Machine Latency: 1788
+Maq4: 0 32 25 37 5 16 10 17 40 
+Machine Latency: 1753
+Maq5: 0 15 24 12 6 38 39 
+Machine Latency: 1689
+
+Total Latency: 8908
+CPU Time: 1.076
+*********************************************
+I40j_5m_S3_1.txt
+Maq1: 0 25 39 34 3 4 16 
+Machine Latency: 1725
+Maq2: 0 20 26 8 5 38 1 17 15 
+Machine Latency: 1956
+Maq3: 0 11 40 23 21 27 2 10 14 30 19 28 
+Machine Latency: 2074
+Maq4: 0 36 9 32 29 22 6 24 31 12 
+Machine Latency: 2283
+Maq5: 0 7 37 35 18 13 33 
+Machine Latency: 1529
+
+Total Latency: 9567
+CPU Time: 1.123
+*********************************************
+I40j_5m_S3_2.txt
+Maq1: 0 36 18 17 30 35 23 19 27 26 
+Machine Latency: 1975
+Maq2: 0 9 14 39 16 28 31 20 21 10 
+Machine Latency: 2406
+Maq3: 0 2 5 12 13 32 15 22 
+Machine Latency: 2018
+Maq4: 0 40 11 1 3 29 24 4 7 
+Machine Latency: 1574
+Maq5: 0 34 8 37 33 38 6 25 
+Machine Latency: 2118
+
+Total Latency: 10091
+CPU Time: 1.061
+*********************************************
+I40j_5m_S3_3.txt
+Maq1: 0 22 5 14 6 15 34 27 16 
+Machine Latency: 1834
+Maq2: 0 30 29 20 38 9 21 32 
+Machine Latency: 1509
+Maq3: 0 25 4 7 39 8 36 33 12 11 35 
+Machine Latency: 1872
+Maq4: 0 17 18 23 13 26 28 2 3 
+Machine Latency: 1638
+Maq5: 0 31 19 37 1 10 40 24 
+Machine Latency: 1314
+
+Total Latency: 8167
+CPU Time: 1.092
+*********************************************
+I40j_5m_S3_4.txt
+Maq1: 0 30 23 8 29 13 32 26 36 38 12 
+Machine Latency: 1665
+Maq2: 0 24 17 18 19 10 28 15 37 
+Machine Latency: 1695
+Maq3: 0 11 14 21 35 31 3 1 9 
+Machine Latency: 1818
+Maq4: 0 5 27 4 20 39 40 7 34 
+Machine Latency: 1830
+Maq5: 0 33 16 6 25 22 2 
+Machine Latency: 1491
+
+Total Latency: 8499
+CPU Time: 1.108
+*********************************************
+I40j_5m_S3_5.txt
+Maq1: 0 7 8 33 4 35 23 5 38 6 
+Machine Latency: 1719
+Maq2: 0 26 32 20 29 28 12 
+Machine Latency: 1491
+Maq3: 0 39 31 27 21 14 1 24 2 
+Machine Latency: 2121
+Maq4: 0 17 19 10 34 22 25 13 37 3 
+Machine Latency: 1516
+Maq5: 0 36 11 16 9 15 18 40 30 
+Machine Latency: 1598
+
+Total Latency: 8445
+CPU Time: 1.092
+*********************************************
+I40j_2m_S1_1.txt
+Maq1: 0 8 31 24 10 11 16 32 3 20 19 1 2 7 26 29 33 37 6 22 25 28 
+Machine Latency: 7019
+Maq2: 0 13 4 39 9 36 18 34 21 5 27 12 17 14 35 40 38 15 30 23 
+Machine Latency: 6251
+
+Total Latency: 13270
+CPU Time: 0.436
+*********************************************
+I40j_2m_S1_2.txt
+Maq1: 0 37 36 5 18 6 23 19 20 17 3 16 22 28 32 15 30 34 25 1 
+Machine Latency: 7367
+Maq2: 0 39 27 33 26 10 14 38 12 11 29 35 24 2 4 9 21 8 31 13 40 7 
+Machine Latency: 8480
+
+Total Latency: 15847
+CPU Time: 0.452
+*********************************************
+I40j_2m_S1_3.txt
+Maq1: 0 36 21 30 8 7 3 38 16 19 9 23 35 28 10 14 25 2 31 15 26 
+Machine Latency: 9328
+Maq2: 0 40 32 39 1 11 17 20 33 5 18 34 6 13 12 4 24 27 37 29 22 
+Machine Latency: 8632
+
+Total Latency: 17960
+CPU Time: 0.436
+*********************************************
+I40j_2m_S1_4.txt
+Maq1: 0 19 9 16 27 18 2 28 35 6 32 15 25 39 17 37 33 3 31 40 
+Machine Latency: 7506
+Maq2: 0 29 20 36 11 8 5 24 22 26 7 34 23 4 38 12 30 14 1 10 13 21 
+Machine Latency: 8489
+
+Total Latency: 15995
+CPU Time: 0.436
+*********************************************
+I40j_2m_S1_5.txt
+Maq1: 0 38 8 36 31 13 25 6 10 24 20 40 15 29 17 18 21 23 12 33 
+Machine Latency: 5987
+Maq2: 0 2 39 9 26 1 37 7 27 28 14 5 34 30 32 4 22 3 11 19 35 16 
+Machine Latency: 7163
+
+Total Latency: 13150
+CPU Time: 0.436
+*********************************************
+I40j_2m_S2_1.txt
+Maq1: 0 1 38 30 23 5 34 19 14 39 35 22 24 13 21 17 11 25 36 2 15 
+Machine Latency: 9959
+Maq2: 0 33 29 10 18 6 16 28 37 26 9 27 7 4 12 31 3 40 8 20 32 
+Machine Latency: 10529
+
+Total Latency: 20488
+CPU Time: 0.421
+*********************************************
+I40j_2m_S2_2.txt
+Maq1: 0 5 15 39 7 26 31 32 20 40 10 3 16 33 36 14 35 1 27 12 28 30 4 6 
+Machine Latency: 8715
+Maq2: 0 24 29 38 22 8 25 23 34 11 19 2 37 9 13 17 18 21 
+Machine Latency: 6972
+
+Total Latency: 15687
+CPU Time: 0.421
+*********************************************
+I40j_2m_S2_3.txt
+Maq1: 0 40 22 29 6 27 36 35 30 23 39 19 31 17 14 4 10 38 34 21 15 
+Machine Latency: 10633
+Maq2: 0 26 13 2 11 28 5 16 20 18 3 9 32 1 37 33 25 12 7 8 24 
+Machine Latency: 10585
+
+Total Latency: 21218
+CPU Time: 0.421
+*********************************************
+I40j_2m_S2_4.txt
+Maq1: 0 1 19 5 21 32 4 38 24 16 23 3 8 13 11 9 40 27 7 2 17 
+Machine Latency: 9608
+Maq2: 0 35 22 20 30 10 26 18 28 25 12 29 37 31 39 15 33 6 34 36 14 
+Machine Latency: 9788
+
+Total Latency: 19396
+CPU Time: 0.405
+*********************************************
+I40j_2m_S2_5.txt
+Maq1: 0 33 21 30 7 11 32 25 29 23 1 38 39 26 35 20 40 22 8 17 
+Machine Latency: 8948
+Maq2: 0 9 36 13 4 27 19 28 16 37 5 2 3 10 24 12 6 34 31 15 14 18 
+Machine Latency: 9948
+
+Total Latency: 18896
+CPU Time: 0.421
+*********************************************
+I40j_2m_S3_1.txt
+Maq1: 0 36 14 27 19 7 18 24 31 32 29 9 30 35 20 25 17 1 13 15 
+Machine Latency: 10087
+Maq2: 0 11 40 23 21 34 3 8 26 22 5 38 16 10 28 2 39 37 12 6 4 33 
+Machine Latency: 10367
+
+Total Latency: 20454
+CPU Time: 0.405
+*********************************************
+I40j_2m_S3_2.txt
+Maq1: 0 36 12 2 9 14 39 13 34 10 16 28 31 20 25 33 22 19 27 15 26 
+Machine Latency: 11897
+Maq2: 0 40 11 1 3 29 24 18 17 30 35 23 4 7 32 8 37 21 5 38 6 
+Machine Latency: 10800
+
+Total Latency: 22697
+CPU Time: 0.405
+*********************************************
+I40j_2m_S3_3.txt
+Maq1: 0 22 5 25 4 7 39 8 6 12 33 40 24 20 26 38 35 21 13 11 28 27 
+Machine Latency: 9880
+Maq2: 0 31 17 14 23 19 37 1 36 9 18 30 29 2 3 15 34 32 10 16 
+Machine Latency: 8389
+
+Total Latency: 18269
+CPU Time: 0.39
+*********************************************
+I40j_2m_S3_4.txt
+Maq1: 0 30 8 29 13 32 26 17 18 19 21 35 6 11 12 22 28 15 37 3 1 
+Machine Latency: 8916
+Maq2: 0 5 27 33 23 31 39 40 4 20 25 14 24 10 16 36 38 7 34 9 2 
+Machine Latency: 10296
+
+Total Latency: 19212
+CPU Time: 0.405
+*********************************************
+I40j_2m_S3_5.txt
+Maq1: 0 7 39 31 34 22 25 17 19 10 27 29 20 13 14 1 37 2 3 28 12 
+Machine Latency: 9000
+Maq2: 0 36 11 8 33 4 35 16 9 15 18 26 32 23 5 6 24 21 38 40 30 
+Machine Latency: 9740
+
+Total Latency: 18740
+CPU Time: 0.405
+*********************************************
+I40j_3m_S1_1.txt
+Maq1: 0 13 4 39 34 21 27 36 14 26 22 16 33 40 
+Machine Latency: 2890
+Maq2: 0 18 32 3 20 19 35 1 2 38 17 30 23 
+Machine Latency: 2973
+Maq3: 0 8 31 24 10 11 5 9 7 29 37 28 12 15 6 25 
+Machine Latency: 3381
+
+Total Latency: 9244
+CPU Time: 0.671
+*********************************************
+I40j_3m_S1_2.txt
+Maq1: 0 37 36 27 33 5 26 10 14 38 18 7 9 28 21 8 31 
+Machine Latency: 3916
+Maq2: 0 39 35 6 3 12 11 29 23 22 13 40 32 15 
+Machine Latency: 3906
+Maq3: 0 19 16 20 17 24 2 4 30 34 25 1 
+Machine Latency: 3285
+
+Total Latency: 11107
+CPU Time: 0.686
+*********************************************
+I40j_3m_S1_3.txt
+Maq1: 0 40 11 21 30 3 38 16 19 34 6 18 9 15 24 
+Machine Latency: 4363
+Maq2: 0 8 7 32 39 1 20 14 25 12 27 31 26 37 
+Machine Latency: 3521
+Maq3: 0 17 36 13 23 35 5 28 2 10 33 4 29 22 
+Machine Latency: 4728
+
+Total Latency: 12612
+CPU Time: 0.655
+*********************************************
+I40j_3m_S1_4.txt
+Maq1: 0 7 2 5 24 22 25 1 12 35 37 33 13 31 
+Machine Latency: 4049
+Maq2: 0 29 16 27 32 26 17 28 18 39 14 21 10 
+Machine Latency: 3267
+Maq3: 0 19 9 8 20 36 34 11 15 23 4 38 6 30 3 40 
+Machine Latency: 3732
+
+Total Latency: 11048
+CPU Time: 0.655
+*********************************************
+I40j_3m_S1_5.txt
+Maq1: 0 38 8 36 31 24 20 40 15 11 19 23 35 12 
+Machine Latency: 2851
+Maq2: 0 2 39 9 14 6 10 25 22 3 29 17 18 16 
+Machine Latency: 3138
+Maq3: 0 13 30 27 28 26 1 37 7 5 34 32 4 21 33 
+Machine Latency: 3188
+
+Total Latency: 9177
+CPU Time: 0.686
+*********************************************
+I40j_3m_S2_1.txt
+Maq1: 0 1 38 10 18 6 16 39 19 7 30 35 15 4 17 32 
+Machine Latency: 5173
+Maq2: 0 21 28 27 22 24 34 14 9 11 40 8 
+Machine Latency: 4099
+Maq3: 0 33 13 26 23 5 29 25 37 12 31 3 2 36 20 
+Machine Latency: 5061
+
+Total Latency: 14333
+CPU Time: 0.639
+*********************************************
+I40j_3m_S2_2.txt
+Maq1: 0 40 34 23 1 15 2 19 4 14 11 13 12 
+Machine Latency: 3758
+Maq2: 0 24 32 3 16 25 8 29 38 22 35 18 21 27 
+Machine Latency: 3166
+Maq3: 0 5 33 36 39 7 26 31 20 10 9 37 17 6 28 30 
+Machine Latency: 3842
+
+Total Latency: 10766
+CPU Time: 0.639
+*********************************************
+I40j_3m_S2_3.txt
+Maq1: 0 40 36 4 39 23 14 19 20 1 10 18 8 
+Machine Latency: 4775
+Maq2: 0 11 26 27 35 22 3 9 32 37 33 25 12 21 
+Machine Latency: 4653
+Maq3: 0 2 29 13 6 28 30 5 31 17 16 7 15 24 38 34 
+Machine Latency: 5214
+
+Total Latency: 14642
+CPU Time: 0.624
+*********************************************
+I40j_3m_S2_4.txt
+Maq1: 0 1 19 32 5 26 12 18 21 30 37 17 33 6 
+Machine Latency: 4479
+Maq2: 0 35 22 20 23 3 8 13 11 40 27 7 14 31 
+Machine Latency: 4893
+Maq3: 0 28 25 29 10 4 38 24 16 39 15 9 34 2 36 
+Machine Latency: 4264
+
+Total Latency: 13636
+CPU Time: 0.624
+*********************************************
+I40j_3m_S2_5.txt
+Maq1: 0 9 1 4 27 21 14 16 10 35 20 26 24 18 15 
+Machine Latency: 4588
+Maq2: 0 2 36 13 30 7 11 32 17 12 22 8 3 31 
+Machine Latency: 4523
+Maq3: 0 33 25 29 23 19 28 37 5 6 34 38 40 39 
+Machine Latency: 4286
+
+Total Latency: 13397
+CPU Time: 0.624
+*********************************************
+I40j_3m_S3_1.txt
+Maq1: 0 11 40 23 21 27 2 10 14 30 19 34 39 37 17 33 
+Machine Latency: 4825
+Maq2: 0 36 9 32 29 3 7 35 18 1 24 13 12 15 
+Machine Latency: 4803
+Maq3: 0 20 26 8 31 22 6 5 38 28 16 4 25 
+Machine Latency: 4811
+
+Total Latency: 14439
+CPU Time: 0.624
+*********************************************
+I40j_3m_S3_2.txt
+Maq1: 0 36 29 39 17 30 35 23 25 24 32 5 12 21 27 38 
+Machine Latency: 6049
+Maq2: 0 9 14 19 18 2 16 28 31 20 10 6 4 7 
+Machine Latency: 5395
+Maq3: 0 40 11 1 34 8 3 33 37 15 22 13 26 
+Machine Latency: 4122
+
+Total Latency: 15566
+CPU Time: 0.593
+*********************************************
+I40j_3m_S3_3.txt
+Maq1: 0 30 25 4 39 8 6 17 14 15 12 11 26 28 35 
+Machine Latency: 4028
+Maq2: 0 22 9 7 1 20 5 36 33 40 13 21 32 10 16 
+Machine Latency: 4854
+Maq3: 0 31 19 37 18 23 3 2 38 29 34 27 24 
+Machine Latency: 3872
+
+Total Latency: 12754
+CPU Time: 0.608
+*********************************************
+I40j_3m_S3_4.txt
+Maq1: 0 5 27 33 4 26 12 19 10 16 28 2 21 7 
+Machine Latency: 4924
+Maq2: 0 11 20 39 13 32 24 17 40 22 35 15 37 6 
+Machine Latency: 4431
+Maq3: 0 30 23 8 29 31 25 14 18 3 1 9 36 38 34 
+Machine Latency: 3919
+
+Total Latency: 13274
+CPU Time: 0.608
+*********************************************
+I40j_3m_S3_5.txt
+Maq1: 0 36 11 8 33 4 32 20 35 23 5 38 40 3 
+Machine Latency: 3768
+Maq2: 0 7 39 21 27 29 2 1 37 24 12 28 
+Machine Latency: 4214
+Maq3: 0 31 17 19 10 34 22 25 13 18 16 9 15 6 30 26 14 
+Machine Latency: 5021
+
+Total Latency: 13003
+CPU Time: 0.608
+*********************************************
+I40j_4m_S1_1.txt
+Maq1: 0 10 11 5 4 7 26 16 15 28 30 
+Machine Latency: 1892
+Maq2: 0 13 20 19 1 32 27 33 37 6 25 
+Machine Latency: 1847
+Maq3: 0 39 34 21 22 29 35 40 38 
+Machine Latency: 1550
+Maq4: 0 8 31 24 18 3 9 36 14 2 17 12 23 
+Machine Latency: 1852
+
+Total Latency: 7141
+CPU Time: 0.936
+*********************************************
+I40j_4m_S1_2.txt
+Maq1: 0 19 27 33 6 3 16 20 30 34 25 31 
+Machine Latency: 2522
+Maq2: 0 39 35 17 24 28 2 4 9 7 
+Machine Latency: 2117
+Maq3: 0 36 5 18 14 22 10 23 1 13 40 
+Machine Latency: 2131
+Maq4: 0 37 26 38 12 11 29 32 15 21 8 
+Machine Latency: 1882
+
+Total Latency: 8652
+CPU Time: 0.936
+*********************************************
+I40j_4m_S1_3.txt
+Maq1: 0 40 11 3 28 19 9 15 6 14 37 
+Machine Latency: 2552
+Maq2: 0 36 21 30 5 18 34 35 26 24 29 
+Machine Latency: 2490
+Maq3: 0 32 39 1 16 8 38 25 12 4 2 31 
+Machine Latency: 2581
+Maq4: 0 17 20 7 13 23 10 33 27 22 
+Machine Latency: 2191
+
+Total Latency: 9814
+CPU Time: 0.889
+*********************************************
+I40j_4m_S1_4.txt
+Maq1: 0 29 8 20 36 11 15 34 24 3 31 40 
+Machine Latency: 2011
+Maq2: 0 4 17 16 27 32 26 14 33 10 
+Machine Latency: 2069
+Maq3: 0 19 9 22 25 5 18 38 39 23 30 21 
+Machine Latency: 2505
+Maq4: 0 7 2 28 35 6 1 12 37 13 
+Machine Latency: 2078
+
+Total Latency: 8663
+CPU Time: 0.905
+*********************************************
+I40j_4m_S1_5.txt
+Maq1: 0 2 28 30 27 39 40 15 32 11 12 
+Machine Latency: 1821
+Maq2: 0 13 25 14 20 31 17 22 3 18 16 
+Machine Latency: 1847
+Maq3: 0 38 8 36 9 26 1 37 7 6 23 29 33 
+Machine Latency: 1797
+Maq4: 0 5 34 10 24 4 21 19 35 
+Machine Latency: 1755
+
+Total Latency: 7220
+CPU Time: 0.936
+*********************************************
+I40j_4m_S2_1.txt
+Maq1: 0 10 9 23 5 39 35 34 14 2 36 
+Machine Latency: 2609
+Maq2: 0 21 29 25 37 12 31 7 4 17 11 
+Machine Latency: 3018
+Maq3: 0 33 13 26 28 18 6 16 19 8 20 15 
+Machine Latency: 3333
+Maq4: 0 1 38 30 27 22 3 40 24 32 
+Machine Latency: 2297
+
+Total Latency: 11257
+CPU Time: 0.827
+*********************************************
+I40j_4m_S2_2.txt
+Maq1: 0 5 26 25 7 8 23 34 38 6 21 
+Machine Latency: 1994
+Maq2: 0 14 31 32 20 1 3 16 27 12 4 
+Machine Latency: 2336
+Maq3: 0 40 10 33 36 15 39 9 37 17 28 30 
+Machine Latency: 2199
+Maq4: 0 24 29 11 19 2 35 18 22 13 
+Machine Latency: 1880
+
+Total Latency: 8409
+CPU Time: 0.858
+*********************************************
+I40j_4m_S2_3.txt
+Maq1: 0 26 13 2 35 30 5 31 17 16 20 8 12 
+Machine Latency: 3207
+Maq2: 0 40 22 3 9 32 1 10 18 34 
+Machine Latency: 2772
+Maq3: 0 11 23 37 14 4 39 21 19 38 
+Machine Latency: 2688
+Maq4: 0 15 6 28 29 27 36 33 25 7 24 
+Machine Latency: 2755
+
+Total Latency: 11422
+CPU Time: 0.842
+*********************************************
+I40j_4m_S2_4.txt
+Maq1: 0 23 29 10 24 35 3 38 34 36 31 15 
+Machine Latency: 2780
+Maq2: 0 22 20 4 13 12 33 6 8 30 
+Machine Latency: 2426
+Maq3: 0 28 25 21 32 5 26 18 19 16 39 37 17 
+Machine Latency: 2996
+Maq4: 0 1 11 9 40 27 7 2 14 
+Machine Latency: 2504
+
+Total Latency: 10706
+CPU Time: 0.843
+*********************************************
+I40j_4m_S2_5.txt
+Maq1: 0 33 21 4 27 25 6 26 17 22 39 
+Machine Latency: 2439
+Maq2: 0 9 29 23 19 28 37 5 3 14 15 8 
+Machine Latency: 3039
+Maq3: 0 32 1 11 16 30 7 10 24 12 18 31 
+Machine Latency: 2901
+Maq4: 0 2 36 13 34 38 35 20 40 
+Machine Latency: 2249
+
+Total Latency: 10628
+CPU Time: 0.842
+*********************************************
+I40j_4m_S3_1.txt
+Maq1: 0 36 14 27 30 19 38 16 4 25 
+Machine Latency: 2589
+Maq2: 0 11 40 23 21 9 7 35 18 5 24 31 12 15 
+Machine Latency: 3222
+Maq3: 0 20 26 8 13 10 28 2 1 33 
+Machine Latency: 2816
+Maq4: 0 17 32 29 22 6 34 3 37 39 
+Machine Latency: 2697
+
+Total Latency: 11324
+CPU Time: 0.858
+*********************************************
+I40j_4m_S3_2.txt
+Maq1: 0 36 18 14 39 13 30 3 33 37 38 6 
+Machine Latency: 3070
+Maq2: 0 9 28 7 12 22 19 27 26 
+Machine Latency: 2820
+Maq3: 0 40 11 1 34 8 32 29 17 31 20 21 5 
+Machine Latency: 3663
+Maq4: 0 2 16 4 35 23 25 24 10 15 
+Machine Latency: 2690
+
+Total Latency: 12243
+CPU Time: 0.811
+*********************************************
+I40j_4m_S3_3.txt
+Maq1: 0 22 5 25 4 7 1 36 11 28 21 13 
+Machine Latency: 2445
+Maq2: 0 30 29 20 26 38 9 37 3 16 
+Machine Latency: 2399
+Maq3: 0 31 19 39 8 23 10 2 24 35 
+Machine Latency: 2067
+Maq4: 0 17 18 14 6 12 33 40 32 15 34 27 
+Machine Latency: 2946
+
+Total Latency: 9857
+CPU Time: 0.827
+*********************************************
+I40j_4m_S3_4.txt
+Maq1: 0 5 27 33 15 10 16 28 9 37 
+Machine Latency: 2837
+Maq2: 0 30 23 8 29 13 32 26 31 6 7 38 12 
+Machine Latency: 2520
+Maq3: 0 11 14 40 22 35 19 2 21 36 
+Machine Latency: 2416
+Maq4: 0 24 17 18 4 20 39 25 3 1 34 
+Machine Latency: 2389
+
+Total Latency: 10162
+CPU Time: 0.842
+*********************************************
+I40j_4m_S3_5.txt
+Maq1: 0 23 33 4 35 30 40 2 3 
+Machine Latency: 2040
+Maq2: 0 31 17 39 22 25 13 6 27 29 28 12 
+Machine Latency: 2776
+Maq3: 0 36 11 16 9 20 37 32 1 24 21 
+Machine Latency: 2689
+Maq4: 0 7 19 10 34 8 15 18 26 38 14 5 
+Machine Latency: 2700
+
+Total Latency: 10205
+CPU Time: 0.827
+*********************************************
+I40j_5m_S1_1.txt
+Maq1: 0 8 31 24 16 32 29 35 40 37 
+Machine Latency: 1319
+Maq2: 0 39 34 26 22 17 23 
+Machine Latency: 984
+Maq3: 0 13 4 7 9 36 14 38 15 25 
+Machine Latency: 1387
+Maq4: 0 18 3 20 19 1 2 28 30 
+Machine Latency: 1172
+Maq5: 0 10 11 21 5 27 12 6 33 
+Machine Latency: 1113
+
+Total Latency: 5975
+CPU Time: 1.217
+*********************************************
+I40j_5m_S1_2.txt
+Maq1: 0 36 5 18 38 23 30 8 31 
+Machine Latency: 1241
+Maq2: 0 37 26 10 14 7 9 13 40 
+Machine Latency: 1394
+Maq3: 0 39 35 2 4 22 28 21 
+Machine Latency: 1498
+Maq4: 0 16 20 17 24 15 25 34 
+Machine Latency: 1455
+Maq5: 0 19 27 33 6 3 12 11 29 32 1 
+Machine Latency: 1604
+
+Total Latency: 7192
+CPU Time: 1.201
+*********************************************
+I40j_5m_S1_3.txt
+Maq1: 0 40 3 38 16 19 9 15 24 
+Machine Latency: 1639
+Maq2: 0 17 20 1 14 23 35 26 37 
+Machine Latency: 1628
+Maq3: 0 12 11 34 6 13 27 31 
+Machine Latency: 1552
+Maq4: 0 8 7 32 39 25 4 2 18 29 
+Machine Latency: 1856
+Maq5: 0 36 21 30 5 28 10 33 22 
+Machine Latency: 1450
+
+Total Latency: 8125
+CPU Time: 1.139
+*********************************************
+I40j_5m_S1_4.txt
+Maq1: 0 4 38 12 34 14 1 10 
+Machine Latency: 1608
+Maq2: 0 29 8 20 36 11 15 39 31 33 
+Machine Latency: 1266
+Maq3: 0 32 26 17 3 30 21 
+Machine Latency: 1282
+Maq4: 0 19 9 16 27 18 28 35 6 23 40 
+Machine Latency: 1696
+Maq5: 0 7 2 5 24 22 25 37 13 
+Machine Latency: 1347
+
+Total Latency: 7199
+CPU Time: 1.186
+*********************************************
+I40j_5m_S1_5.txt
+Maq1: 0 5 8 28 4 21 23 35 
+Machine Latency: 1150
+Maq2: 0 2 39 34 30 37 3 18 
+Machine Latency: 1083
+Maq3: 0 38 1 40 31 24 20 10 17 16 12 
+Machine Latency: 1525
+Maq4: 0 13 25 22 6 15 11 19 
+Machine Latency: 1174
+Maq5: 0 36 9 26 14 7 27 32 29 33 
+Machine Latency: 1144
+
+Total Latency: 6076
+CPU Time: 1.217
+*********************************************
+I40j_5m_S2_1.txt
+Maq1: 0 23 5 39 27 22 19 8 20 32 
+Machine Latency: 2137
+Maq2: 0 33 29 24 30 31 3 40 
+Machine Latency: 1523
+Maq3: 0 1 38 13 26 37 35 34 25 36 
+Machine Latency: 2184
+Maq4: 0 10 18 6 9 7 14 2 15 
+Machine Latency: 1877
+Maq5: 0 21 12 4 16 28 17 11 
+Machine Latency: 1703
+
+Total Latency: 9424
+CPU Time: 1.092
+*********************************************
+I40j_5m_S2_2.txt
+Maq1: 0 5 15 39 38 22 35 1 27 
+Machine Latency: 1169
+Maq2: 0 14 20 9 37 10 18 
+Machine Latency: 1129
+Maq3: 0 24 29 33 36 31 11 13 23 34 21 
+Machine Latency: 1815
+Maq4: 0 7 26 25 8 19 4 6 12 
+Machine Latency: 1509
+Maq5: 0 40 32 3 16 30 17 28 2 
+Machine Latency: 1419
+
+Total Latency: 7041
+CPU Time: 1.124
+*********************************************
+I40j_5m_S2_3.txt
+Maq1: 0 4 39 23 37 14 10 38 24 
+Machine Latency: 2242
+Maq2: 0 15 6 16 20 18 36 33 8 
+Machine Latency: 2105
+Maq3: 0 2 35 30 5 3 31 25 12 
+Machine Latency: 1651
+Maq4: 0 40 22 29 13 19 9 34 7 
+Machine Latency: 1814
+Maq5: 0 26 27 11 28 17 1 32 21 
+Machine Latency: 1721
+
+Total Latency: 9533
+CPU Time: 1.061
+*********************************************
+I40j_5m_S2_4.txt
+Maq1: 0 22 20 4 24 16 39 37 31 15 
+Machine Latency: 2113
+Maq2: 0 18 19 5 26 12 33 17 
+Machine Latency: 1468
+Maq3: 0 35 23 3 38 13 11 36 14 
+Machine Latency: 1925
+Maq4: 0 1 32 28 9 40 27 7 
+Machine Latency: 1516
+Maq5: 0 34 29 10 25 21 6 8 30 2 
+Machine Latency: 2008
+
+Total Latency: 9030
+CPU Time: 1.093
+*********************************************
+I40j_5m_S2_5.txt
+Maq1: 0 15 7 10 12 22 38 39 
+Machine Latency: 2007
+Maq2: 0 19 28 21 14 30 31 20 
+Machine Latency: 1430
+Maq3: 0 32 1 11 16 37 5 2 3 24 8 
+Machine Latency: 2100
+Maq4: 0 33 25 6 34 26 35 23 
+Machine Latency: 1730
+Maq5: 0 9 29 36 13 4 27 18 17 40 
+Machine Latency: 1705
+
+Total Latency: 8972
+CPU Time: 1.092
+*********************************************
+I40j_5m_S3_1.txt
+Maq1: 0 36 9 3 4 16 33 
+Machine Latency: 1428
+Maq2: 0 11 40 23 21 27 30 19 13 15 34 
+Machine Latency: 1876
+Maq3: 0 14 26 8 5 38 28 2 25 
+Machine Latency: 2036
+Maq4: 0 17 32 29 22 6 24 31 12 
+Machine Latency: 2099
+Maq5: 0 20 10 7 18 1 39 37 35 
+Machine Latency: 2219
+
+Total Latency: 9658
+CPU Time: 1.092
+*********************************************
+I40j_5m_S3_2.txt
+Maq1: 0 36 29 17 30 35 4 7 32 10 
+Machine Latency: 2133
+Maq2: 0 9 16 28 31 20 21 5 
+Machine Latency: 1747
+Maq3: 0 2 23 19 18 25 24 6 12 
+Machine Latency: 2268
+Maq4: 0 40 11 1 34 8 3 33 27 38 
+Machine Latency: 2045
+Maq5: 0 14 39 13 37 15 22 26 
+Machine Latency: 1995
+
+Total Latency: 10188
+CPU Time: 1.045
+*********************************************
+I40j_5m_S3_3.txt
+Maq1: 0 22 1 36 33 12 40 24 32 
+Machine Latency: 1503
+Maq2: 0 9 37 17 14 6 15 34 16 
+Machine Latency: 1777
+Maq3: 0 25 4 7 39 35 20 10 38 
+Machine Latency: 1525
+Maq4: 0 31 19 8 23 18 2 3 5 11 
+Machine Latency: 1768
+Maq5: 0 30 29 13 26 28 21 27 
+Machine Latency: 1627
+
+Total Latency: 8200
+CPU Time: 1.045
+*********************************************
+I40j_5m_S3_4.txt
+Maq1: 0 33 4 23 31 6 18 15 7 
+Machine Latency: 1404
+Maq2: 0 5 27 12 22 28 2 
+Machine Latency: 1432
+Maq3: 0 24 17 40 38 20 3 1 9 
+Machine Latency: 1812
+Maq4: 0 30 8 29 13 32 26 25 39 37 34 
+Machine Latency: 2055
+Maq5: 0 11 14 21 35 19 10 16 36 
+Machine Latency: 1873
+
+Total Latency: 8576
+CPU Time: 1.076
+*********************************************
+I40j_5m_S3_5.txt
+Maq1: 0 17 39 22 29 2 1 21 
+Machine Latency: 1441
+Maq2: 0 7 8 19 10 34 24 23 5 38 
+Machine Latency: 1402
+Maq3: 0 36 11 16 9 15 18 26 12 3 
+Machine Latency: 2199
+Maq4: 0 31 27 33 4 35 25 28 14 37 
+Machine Latency: 1889
+Maq5: 0 32 20 13 6 30 40 
+Machine Latency: 1508
+
+Total Latency: 8439
+CPU Time: 1.061
+*********************************************
