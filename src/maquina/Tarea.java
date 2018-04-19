@@ -1,3 +1,4 @@
+package maquina;
 
 public class Tarea {
 	private Integer time;
