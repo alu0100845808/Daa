@@ -1,4 +1,4 @@
-package maquina;
+
 
 public class Tarea {
     

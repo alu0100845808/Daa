@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-
+import java.util.*;
 
 public class Maquina {
 	
@@ -15,7 +14,7 @@ public class Maquina {
 			return tareasrealizadas.get(i);
 		}
 		else {
-			 throw new RuntimeError("Bad.");
+			 throw new IllegalArgumentException();
 		}
 	}
 	
@@ -31,7 +30,7 @@ public class Maquina {
 	public Integer getLatencia(int index) {
 		
 		if(index >= tareasrealizadas.size())
-			throw new RuntimeError("Bad.");
+			throw new IllegalArgumentException();
 			
 		Integer aux = 0;
 		for(int i = index; i >= 0; i--) {

@@ -1,9 +1,18 @@
+import java.util.*;
+
 public class Instancia {
 
         private Integer numeroTareas = 0 ;
         private Integer numeroMaquinas = 0 ;
         private ArrayList<Tarea> tareas;
         private Integer[][] distancias;
+        
+        public Instancia(){
+            setNumeroTareas(0);
+            setNumeroMaquinas(0);
+            tareas = new ArrayList<Tarea>(0);
+            distancias = new Integer[1][1];
+        }
         
         public Instancia(Integer numeroTareas, Integer numeroMaquinas){
             setNumeroTareas(numeroTareas);
@@ -32,10 +41,11 @@ public class Instancia {
             this.tareas.add(aux);
         }
         
-        public void setDistacia(int i , int j , int aux) {
+        public void setDistancia(int i, int j, int aux) {
             this.distancias[i][j] = aux ;
         }
-        public int getDistacia(int i , int j) {
+        
+        public int getDistancia(int i, int j) {
             return this.distancias[i][j] ;
         }
     

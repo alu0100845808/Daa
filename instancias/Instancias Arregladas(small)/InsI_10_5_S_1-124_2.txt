@@ -1,8 +1,8 @@
 Clientes: 10
-Máquinas: 5
+Mï¿½quinas: 5
 Tiempos de procesamiento: 
 11	36	41	69	18	37	25	86	23	88	8	
-Tiempos de preparación: 
+Tiempos de preparaciï¿½n: 
 0	88	76	59	109	9	89	13	8	92	53	
 30	0	58	115	105	48	32	6	115	41	11	
 49	58	0	111	44	82	16	65	66	57	33	
