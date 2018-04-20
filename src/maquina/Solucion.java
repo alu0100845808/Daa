@@ -1,3 +1,5 @@
+package maquina;
+
 
 import java.util.ArrayList;
 
@@ -16,6 +18,6 @@ public class Solucion {
 	}
 
     public Maquina getSolucionAt(Integer maquina) {
-        return maquina.get(maquina);
+        return maquinas.get(maquina);
     }
 }

@@ -1,3 +1,5 @@
+package maquina;
+
 import java.util.*;
 
 public class Instancia {
