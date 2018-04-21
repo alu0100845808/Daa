@@ -5,7 +5,12 @@ import java.io.*;
 public class Main {
     
 	public static void main(String[] args) throws IOException {
-		Instancia instancia = readInstance(args[0]);
+	    ArrayList<instancia> instancias = new ArrayList<instancias>();
+	    for (int i = 0; i < args.length; i++){
+		    instancias.add(readInstance(args[i]));
+	    }
+	    //Ejecutar algoritmos
+	    
     }
     
     public static Instancia readInstance(String filename) throws IOException {

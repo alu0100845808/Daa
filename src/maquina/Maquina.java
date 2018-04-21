@@ -8,7 +8,7 @@ public class Maquina {
 	private ArrayList<Tarea> tareasrealizadas;
 	
 	public Maquina() {
-		tareasrealizadas = new ArrayList<Tarea>();
+		setTareasrealizadas(new ArrayList<Tarea>());
 	}
 	
 	public Tarea getTarea(int i) {
@@ -19,8 +19,27 @@ public class Maquina {
 			 throw new IllegalArgumentException();
 		}
 	}
+	/*
+	Duda que se le a realizado a la maestra a espera de que conteste
 	
+	Hola buenas.
+	Tengo una duda acerca de nuestro problema asignado (el 2.3).
+	Los datos de entrada son:
+	* el numero de tareas
+	* el n..... de maquinas
+	* tiempo asignado por tarea tarea
+	* una matriz n x n
+	Dentro de la matriz como debo buscar la latencia entre tareas ¿Es por filas o por columnas?
+
+	Muchas gracias
+	 
 	
+	*/
+	public void changePos(int i, int j){
+		tarea aux;
+		tarea aux2;
+	}
+	/////esta funcion esta mal
 	public Integer getTimeTotal() {
 		Integer aux = 0;
 		for (int i = 0; i < tareasrealizadas.size(); i++) {
@@ -28,7 +47,7 @@ public class Maquina {
 		}
 		return aux;
 	}
-	
+	//esta funcion esta mal
 	public Integer getLatencia(int index) {
 		
 		if(index >= tareasrealizadas.size())
