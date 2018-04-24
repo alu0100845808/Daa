@@ -11,6 +11,13 @@ public class Maquina {
 		setTareasRealizadas(new ArrayList<Tarea>());
 	}
 	
+	public Maquina(Maquina maquina) {
+		setTareasRealizadas(new ArrayList<Tarea>());
+		for(int i = 0; i < maquina.getTareasRealizadas().size(); i++) {
+			getTareasRealizadas().add(i, maquina.getTareasRealizadas().get(i));
+		}
+	}
+	
 	public Tarea getTarea(int i) {
 		try { return getTareasRealizadas().get(i); }
 		catch(IllegalArgumentException iaex) { 
@@ -19,14 +26,9 @@ public class Maquina {
 		}
 	}
 	
-	/** Método de intercambio. Sigue el siguiente proceso:
-	 * 
-	 *  Tarea aux = getTareasRealizadas().get(i);
-	 *	Tarea aux2 = getTareasRealizadas().get(j);
-	 *  getTareasRealizadas().set(i, aux2);
-	 *  getTareasRealizadas().set(j, aux);
-	 *  
-	 **/
+	public void addTarea(int index, Tarea tarea) {
+		getTareasRealizadas().add(index, tarea);
+	}
 	
 	public void changePosItem(int i, int j){
 		try { Collections.swap(getTareasRealizadas(), i, j); }
@@ -35,32 +37,18 @@ public class Maquina {
 		}
 	}
 	
-	public Integer getTimeTotal() {
-		Integer aux = 0;
-		for(int i = 0; i < getTareasRealizadas().size(); i++) {
-			aux += getTareasRealizadas().get(i).getTime();
+	public Integer getLatencia(Instancia instancia) {
+		Integer latTotal = 0;
+		Integer size = getTareasRealizadas().size();
+		if(size > 0) {
+			for(int i = size - 1; i > 0; i--) {
+				latTotal += (getTareasRealizadas().get(i).getTime() * (size - i));
+				latTotal += (instancia.getPreparacionItem(getTareasRealizadas().get(i - 1).getID(), getTareasRealizadas().get(i).getID()) * (size - i));
+			}
+			latTotal += (getTareasRealizadas().get(0).getTime() * size);
 		}
-		return aux;
+		return latTotal;
 	}
-	
-	// ToDo: Corregir ambas funciones.
-	/** 
-		public Integer getTimeTotal() {
-			Integer aux = 0;
-			for (int i = 0; i < getTareasRealizadas().size(); i++) {
-				aux += getLatencia(i);
-			}
-			return aux;
-		}
-
-		public Integer getLatencia(int index) {
-			Integer aux = 0;
-			for(int i = index; i >= 0; i--) {
-				aux +=  getTarea(i).getTime();
-			}
-			return aux;
-		}
-	**/
 
 	public ArrayList<Tarea> getTareasRealizadas(){ return tareasRealizadas; }
 	public void setTareasRealizadas(ArrayList<Tarea> tareasRealizadas){ this.tareasRealizadas = tareasRealizadas; }

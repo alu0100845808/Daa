@@ -14,7 +14,7 @@ public class Tarea {
 	}	
 	
 	public String toString() {
-	    return "Tarea: " + getID() + " >> Tiempo: " + getTime() + ".";
+	    return getTime() + " ";
 	}
 
 	public Integer getID(){ return ID; }

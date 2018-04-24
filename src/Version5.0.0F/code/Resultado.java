@@ -2,19 +2,19 @@ package code;
 
 import java.util.ArrayList;
 
-public class Solucion {
+public class Resultado {
 	
 	private ArrayList<Maquina> maquinas;
 
-	public Solucion(Integer nMaquinas) {
+	public Resultado(Integer nMaquinas) {
 		setMaquinas(new ArrayList<Maquina>());
 		for (int i = 0; i < nMaquinas; i++) {
 			getMaquinas().add(new Maquina());
 		}
 	}
 	
-	public Solucion(Instancia instance) {
-		setMaquinas(instance.getMachineList());
+	public Resultado(Solucion solucion) {
+		setMaquinas(solucion.getMachineList());
 	}
 
     public Maquina getSolucionAt(Integer maquinaID) { return getMaquinas().get(maquinaID); }
