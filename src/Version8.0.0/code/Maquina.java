@@ -32,7 +32,7 @@ public class Maquina {
 	
 	/** Devuelve la mejor posición donde introducir la tarea*/
 	public int bestPos(Tarea tarea, Instancia initInstance) {
-		int index = -1;
+		int index = 0;
 		Integer latencia = Integer.MAX_VALUE;
 		for(int i = 0; i <= getTareasRealizadas().size(); i++) {
 			Maquina auxMachine = new Maquina(this);

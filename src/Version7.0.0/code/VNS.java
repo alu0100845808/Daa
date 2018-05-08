@@ -1,5 +1,7 @@
 package code;
 
+import java.util.Random;
+
 public class VNS extends Algorithm{
 
 	public VNS(Instancia initInst) {
@@ -96,16 +98,38 @@ public class VNS extends Algorithm{
 		Random rnd = new Random();
 		// Intramáquina
 		if(entorno == 0 || entorno == 1) {
-			rnd.nextInt(/*numero maximo + 1*/);
-			// TODO cambiar aleatoriamente elementos en cada máquina
+			Integer machine = rnd.nextInt(sol.getMachineList().size());
+			Integer tarea1, tarea2;
+			do{
+				tarea1 = rnd.nextInt(sol.getMachineList().get(machine).getTareasRealizadas().size());
+				tarea2 = rnd.nextInt(sol.getMachineList().get(machine).getTareasRealizadas().size());
+			} while(tarea1 == tarea2);
+			sol.exchangeMachineItem(sol.getMachineList().get(machine).getTarea(tarea1).getID(), sol.getMachineList().get(machine).getTarea(tarea2).getID());
 		}
 		// Entremáquina
 		else if(entorno == 2 || entorno == 3) {
-			// TODO cambiar aleatoriamente elementos entre las máquinas
+			if(sol.getMachineList().size() > 1) {
+				Integer maquina1, maquina2;
+				do {
+					maquina1 = rnd.nextInt(sol.getMachineList().size());
+					maquina2 = rnd.nextInt(sol.getMachineList().size());
+				} while(maquina1 == maquina2);
+				Integer tarea1 = rnd.nextInt(sol.getMachineList().get(maquina1).getTareasRealizadas().size());
+				Integer tarea2 = rnd.nextInt(sol.getMachineList().get(maquina2).getTareasRealizadas().size());
+				sol.exchangeMachineItem(getInitialInstance().getTareas().get(tarea1).getID(), getInitialInstance().getTareas().get(tarea2).getID());
+			}
 		}
 		// Reinserción
 		else if(entorno == 4 || entorno == 5) {
-			// TODO pues na, lo mismo de antes pero con reinserción
+			if(sol.getMachineList().size() > 1) {
+				Integer machine = rnd.nextInt(sol.getMachineList().size());
+				Integer tarea = rnd.nextInt(sol.getMachineList().get(machine).getTareasRealizadas().size());
+				Integer maquinaDestino;
+				do maquinaDestino = rnd.nextInt(sol.getMachineList().size());
+				while(machine == maquinaDestino);
+				Integer posicion = rnd.nextInt(sol.getMachineList().get(maquinaDestino).getTareasRealizadas().size() + 1);
+				sol.changeMachineItem(sol.getMachineList().get(machine).getTareasRealizadas().get(tarea).getID(), maquinaDestino, posicion);
+			}
 		}
 		return sol;
 	}

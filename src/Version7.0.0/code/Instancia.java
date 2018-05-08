@@ -10,13 +10,13 @@ public class Instancia {
         private Integer numeroTareas = 0 ;
         private Integer numeroMaquinas = 0 ;
         private ArrayList<Tarea> tareas;
-        private Integer[][] distancias;
+        private Integer[][] tPreparacion;
         
         public Instancia(){
             setNumeroTareas(0);
             setNumeroMaquinas(0);
             setTareas(new ArrayList<Tarea>(0));   
-            setDistancias(null);
+            setTPreparacion(null);
         }
         
         public Instancia(Instancia instancia){
@@ -33,7 +33,7 @@ public class Instancia {
             setNumeroTareas(numeroTareas);
             setNumeroMaquinas(numeroMaquinas);
             setTareas(new ArrayList<Tarea>(numeroTareas));
-            setDistancias(new Integer[numeroTareas][numeroTareas]);
+            setTPreparacion(new Integer[numeroTareas][numeroTareas]);
             sortTasks();
         }
 
@@ -60,7 +60,7 @@ public class Instancia {
             
             /** Descripci�n del problema **/
             line = br.readLine();
-            setDistancias(new Integer[getNumeroTareas()][getNumeroTareas()]);
+            setTPreparacion(new Integer[getNumeroTareas()][getNumeroTareas()]);
             
             /** Matriz de transiciones entre tareas **/
             int i = 0;
@@ -70,7 +70,7 @@ public class Instancia {
                 	if(i == j && Integer.parseInt(parts[j]) != 0){
                 		throw new IllegalArgumentException("La diagonal principal de la matriz de transiciones ha de ser cero.");
                 	}
-                	setDistanciaItem(i, j, Integer.parseInt(parts[j]));	
+                	setPreparacionItem(i, j, Integer.parseInt(parts[j]));	
                 }
                 i++;
             } 
@@ -97,21 +97,21 @@ public class Instancia {
         public void addTarea(Tarea aux) { 
         	this.tareas.add(aux); 
         } 
-        public void setDistanciaItem(int i, int j, int aux) {
-            this.distancias[i][j] = aux ;
+        public void setPreparacionItem(int i, int j, int aux) {
+            this.tPreparacion[i][j] = aux ;
         }
-        public int getDistanciaItem(int i, int j) {
-            return this.distancias[i][j] ;
+        public int getPreparacionItem(int i, int j) {
+            return this.tPreparacion[i][j] ;
         }
 
         /** M�todos GETTER y SETTER **/
 		public Integer getNumeroTareas(){ return numeroTareas; }
 		public Integer getNumeroMaquinas(){ return numeroMaquinas; }
 		public ArrayList<Tarea> getTareas(){ return tareas; }
-		public Integer[][] getDistancias(){ return distancias; }
+		public Integer[][] getTPreparacion(){ return tPreparacion; }
 		public void setNumeroTareas(Integer numeroTareas){ this.numeroTareas = numeroTareas; }
 		public void setNumeroMaquinas(Integer numeroMaquinas){ this.numeroMaquinas = numeroMaquinas; }
 		public void setTareas(ArrayList<Tarea> tareas){ this.tareas = tareas; }
-		public void setDistancias(Integer[][] distancias){ this.distancias = distancias; }
+		public void setTPreparacion(Integer[][] preparacion){ this.tPreparacion = preparacion; }
     
 }

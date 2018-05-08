@@ -7,7 +7,7 @@ public class GraspAlgorithm extends Algorithm{
 	private final Integer LRC_SIZE = 3; 
 	
 	public GraspAlgorithm(Instancia initInst) {
-		super(initInst);
+		super(new Instancia(initInst));
 	}
 	public void exec() {
 		construccion();

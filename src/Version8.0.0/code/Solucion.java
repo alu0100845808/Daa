@@ -1,5 +1,8 @@
 package code;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class Solucion {
@@ -79,7 +82,9 @@ public class Solucion {
 			for(int j = i + 1; j < getMachineList().size(); j++) {
 				for(int k = 0; k < getMachineList().get(i).getTareasRealizadas().size(); k++) {
 					for(int l = 0; l < getMachineList().get(j).getTareasRealizadas().size(); l++) {
+						
 						Solucion auxSolucion = exchangeMachineItem(getMachineList().get(i).getTarea(k).getID(), getMachineList().get(j).getTarea(l).getID());
+						
 						if(auxSolucion.getLatenciaTotal(initInstance) < getLatenciaTotal(initInstance)) {
 							return auxSolucion;
 						}
@@ -111,30 +116,48 @@ public class Solucion {
 	public Solucion BLReinsertPM(Instancia initInstance) {
 		for(int i = 0; i < getMachineList().size(); i++){
 			for(int j = i + 1; j < getMachineList().size() - 1; j++){
-				for(int k = 0; k < getMachineList().get(i).size(); k++){
-					Solucion aux = changeMachineItem(getMachineList.get(i).get(k).getID(), j, 
-						getMachineList().get(j).bestPos(getMachineList.get(i).get(k), initInstance));
-					if(getLatenciaTotal() > aux.getLatenciaTotal()){ return(aux); }
+				for(int k = 0; k < getMachineList().get(i).getTareasRealizadas().size(); k++){
+					Solucion aux = changeMachineItem(getMachineList().get(i).getTareasRealizadas().get(k).getID(), j, 
+						getMachineList().get(j).bestPos(getMachineList().get(i).getTareasRealizadas().get(k), initInstance));
+					if(getLatenciaTotal(initInstance) > aux.getLatenciaTotal(initInstance)){ return(aux); }
 				}
-			}
-		}
-		for(int i = getMachineList().size() - 1; i >= 0; i--){
-			for(int j = i - 1; j > 0; j--){
-				for(int k = 0; k < getMachineList().get(i).size(); k++){
-					Solucion aux = changeMachineItem(getMachineList.get(i).get(k).getID(), j, 
-						getMachineList().get(j).bestPos(getMachineList.get(i).get(k), initInstance));
-					if(getLatenciaTotal() > aux.getLatenciaTotal()){ return(aux); }	
+				for(int k = 0; k < getMachineList().get(j).getTareasRealizadas().size(); k++){
+					Solucion aux = changeMachineItem(getMachineList().get(j).getTareasRealizadas().get(k).getID(), i, 
+						getMachineList().get(i).bestPos(getMachineList().get(j).getTareasRealizadas().get(k), initInstance));
+					if(getLatenciaTotal(initInstance) > aux.getLatenciaTotal(initInstance)){ return(aux); }	
 				}
 			}
 		}
 		return this;
 	}
 	
-	public Solucion BLReinsertGreedy() {
-		Solucion newSolucion = new Solucion();
+	public Solucion BLReinsertGreedy(Instancia initInstance) {
+		Solucion bestSolucion = new Solucion(this);
+		int mejorLatencia = getLatenciaTotal(initInstance);
 		
-		return newSolucion;
+		for(int i = 0; i < getMachineList().size(); i++){
+			for(int j = i + 1; j < getMachineList().size() - 1; j++){
+				for(int k = 0; k < getMachineList().get(i).getTareasRealizadas().size(); k++){
+					Solucion aux = changeMachineItem(getMachineList().get(i).getTareasRealizadas().get(k).getID(), j, 
+						getMachineList().get(j).bestPos(getMachineList().get(i).getTareasRealizadas().get(k), initInstance));
+					if(mejorLatencia > aux.getLatenciaTotal(initInstance)){ 
+						mejorLatencia = aux.getLatenciaTotal(initInstance);
+						bestSolucion = aux;
+					}
+				}
+				for(int k = 0; k < getMachineList().get(j).getTareasRealizadas().size(); k++){
+					Solucion aux = changeMachineItem(getMachineList().get(j).getTareasRealizadas().get(k).getID(), i, 
+						getMachineList().get(i).bestPos(getMachineList().get(j).getTareasRealizadas().get(k), initInstance));
+					if(mejorLatencia > aux.getLatenciaTotal(initInstance)){ 
+						mejorLatencia = aux.getLatenciaTotal(initInstance); 
+						bestSolucion = aux;
+					}	
+				}
+			}
+		}
+		return bestSolucion;
 	}
+	
 	
 	/*******************************FUNCIONES AUXILIARES***************************/
 	
@@ -143,8 +166,6 @@ public class Solucion {
     public Solucion exchangeMachineItem(Integer itemIDA, Integer itemIDB) {
     		Solucion newSolucion = new Solucion(this);
 	    	int posItemA = 0, machItemA = 0, posItemB = 0, machItemB = 0;
-	    	// busca las tareas con IDs itemIDA y itemIDB y guarda los índices de las
-	    	// máquinas donde están y los índices de las tareas dentro de las máquinas
 	    	for(int i = 0; i < getMachineList().size(); i++) {
 	    		for(int j = 0; j < getMachineList().get(i).getTareasRealizadas().size(); j++) {
 	    			if(getMachineList().get(i).getTareasRealizadas().get(j).getID().equals(itemIDA)) {
@@ -159,7 +180,6 @@ public class Solucion {
 	    	}
 	    	Tarea aux = getMachineList().get(machItemA).getTareasRealizadas().get(posItemA);
 	    	Tarea aux2 = getMachineList().get(machItemB).getTareasRealizadas().get(posItemB);
-	    	// intercambia las tareas
 	    	newSolucion.getMachineList().get(machItemA).getTareasRealizadas().set(posItemA, aux2);
 	    	newSolucion.getMachineList().get(machItemB).getTareasRealizadas().set(posItemB, aux);
 	    	return newSolucion;
@@ -169,7 +189,6 @@ public class Solucion {
     public Solucion changeMachineItem(Integer itemIDA, Integer machineIDA, Integer machPosA) {
     		Solucion newSolucion = new Solucion(this);
 	    	int posItemA = 0, machItemA = 0;
-	    	// Busca en qué máquina y en qué posición se encuentra la tarea con ID "itemIDA"
 	    	for(int i = 0; i < getMachineList().size(); i++) {
 	    		for(int j = 0; j < getMachineList().get(i).getTareasRealizadas().size(); j++) {
 	    			if(getMachineList().get(i).getTareasRealizadas().get(j).getID().equals(itemIDA)) {
@@ -179,10 +198,8 @@ public class Solucion {
 	    		}
 	    	}
 	    	Tarea aux = getMachineList().get(machItemA).getTareasRealizadas().get(posItemA);
-	    	// quita la tarea de la máquina donde se encontraba
 	    	newSolucion.getMachineList().get(machItemA).getTareasRealizadas().remove(posItemA);
-	    	// pone la tarea en la posición "machPosA" de la máquina "machineIDA"
-	    	newSolucion.getMachineList().get(machineIDA).getTareasRealizadas().add(machPosA, aux);
+	    	newSolucion.	getMachineList().get(machineIDA).getTareasRealizadas().add(machPosA, aux);
 	    	return newSolucion;
     }
 	
@@ -259,8 +276,45 @@ public class Solucion {
 		}
 		return ID;
 	}
+	
+	/******************************************************************************/
+	
+	public void imprimirSolucion(String nombreDirectorio, Instancia initInstance, String algoritmo, double tiempoEjec){
+		try{
+			FileWriter fichero = new FileWriter("resultado_" + nombreDirectorio + ".txt", true);
+			PrintWriter ficheroResultado = new PrintWriter(fichero);
+			System.out.println(parseFile(initInstance, algoritmo, tiempoEjec));
+			ficheroResultado.println(parseFile(initInstance, algoritmo, tiempoEjec));
+			ficheroResultado.close();
+		}
+		catch(IOException ioex){
+			System.out.println("Fichero no encontrado o inexistente");
+		}
+		catch(Exception ex){
+			System.out.println("Algo paso imprimiendo");
+		}
+	}
+	
+	/******************************************************************************/
     
 	/******************************************************************************/
+	
+	public String parseFile(Instancia initInstance, String algoritmo, double tiempoEjec){
+		String salida = "";
+		salida += algoritmo + ";";
+		salida += initInstance.getNumeroTareas() + ";";
+		salida += getMachineList().size() + ";";
+		salida += getLatenciaTotal(initInstance) + ";";
+		salida += tiempoEjec;
+		
+		for(int i = 0; i < getMachineList().size(); i++){
+			salida += ";" + '"' + "Maquina " +	(i+1) + ": " + getMachineList().get(i).getTareasRealizadas() + '"' + ";";
+			salida += getMachineList().get(i).getLatencia(initInstance);
+		}
+		return salida;
+	}
+	
+	/*****************************************************************************/
     
 	public ArrayList<Maquina> getMachineList() { return machineList; }
 	public void setMachineList(ArrayList<Maquina> machineList) { this.machineList = machineList; }

@@ -1,39 +1,34 @@
 package code;
 
-import java.util.Random;
-
-public class GraspAlgorithm extends Algorithm{
-
-	private final Integer LRC_SIZE = 3; 
+public class GreedyAlgorithm extends Algorithm {
 	
-	public GraspAlgorithm(Instancia initInst) {
-		super(initInst);
+	public GreedyAlgorithm(Instancia initInst) { 
+		super(new Instancia(initInst), "GREEDY");
 	}
 	public void exec() {
-		construccion();
-		mejora();
-	}
-	
-	public void construccion() {
+		long time_start, time_end;
+		time_start = System.currentTimeMillis();
 		Integer machineCandidata;
 		while(getActualTareas().size() > 0) {
 			machineCandidata = getSolution().getCandidatoID(getInitialInstance());
-			int index = 0, random = generateRandom();
+			int index = 0;
 			Maquina auxMachine = new Maquina(getSolution().getMachineList().get(machineCandidata));
-			auxMachine.addTarea(index, getActualTareas().get(random));
+			auxMachine.addTarea(index, getActualTareas().get(0));
 			int min = auxMachine.getLatencia(getInitialInstance());
 			for(int i = 0; i < getSolution().getMachineList().get(machineCandidata).getTareasRealizadas().size() + 1; i++) {
 				auxMachine = new Maquina(getSolution().getMachineList().get(machineCandidata));
-				auxMachine.addTarea(i, getActualTareas().get(random));
+				auxMachine.addTarea(i, getActualTareas().get(0));
 				if(auxMachine.getLatencia(getInitialInstance()) < min) {
 					index = i;
 					min = auxMachine.getLatencia(getInitialInstance());
 				}
 			}
-			getSolution().getMachineList().get(machineCandidata).addTarea(index, getActualTareas().get(random));
-			getActualTareas().remove(random);
+			getSolution().getMachineList().get(machineCandidata).addTarea(index, getActualTareas().get(0));
+			getActualTareas().remove(0);
 		}
-		System.out.println("------------------------------- GRASP -------------------------------");
+		time_end = System.currentTimeMillis();
+		setTiempoEjec(time_end - time_start);
+		System.out.println("------------------------------- GREEDY -------------------------------");
 		System.out.println("SOLUCI�N INICIAL:");
 	    for(int j = 0; j < getSolution().getMachineList().size(); j++) {
 		    System.out.println(getSolution().getMachineList().get(j).getTareasRealizadas().toString());
@@ -41,20 +36,4 @@ public class GraspAlgorithm extends Algorithm{
 	    }
 	    System.out.println("==========================================================================");
 	}
-	
-	public void mejora() {
-		setSolution(getSolution().BLIntraPM(getInitialInstance()));
-	}
-	
-	public Integer generateRandom() {
-		Integer random = new Random().nextInt(getLRC_SIZE());
-		if(getActualTareas().size() != 1) {
-			while(random > getActualTareas().size() - 1) {
-				random = new Random().nextInt(getLRC_SIZE());
-			}
-			return random;
-		}
-		return 0;		
-	}
-	public Integer getLRC_SIZE() { return LRC_SIZE; }
 }

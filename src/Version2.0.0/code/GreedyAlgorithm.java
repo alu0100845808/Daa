@@ -5,7 +5,7 @@ public class GreedyAlgorithm extends Algorithm {
 	private Solucion solution;
 	
 	public GreedyAlgorithm(Instancia initInst) { 
-		super(initInst);
+		super(new Instancia(initInst));
 		setSolution(null);
 	}
 	public void exec() {
