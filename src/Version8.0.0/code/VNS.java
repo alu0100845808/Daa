@@ -6,6 +6,7 @@ public class VNS extends Algorithm{
 
 	public VNS(Instancia initInst) {
 		super(new Instancia(initInst), "VNS");
+		setN_ITERACIONES(50);
 	}
 
 	@Override
@@ -14,7 +15,6 @@ public class VNS extends Algorithm{
 		time_start = System.currentTimeMillis();
 		construccionGreedy();
 		Solucion newSolution = new Solucion(getSolution());
-		// TODO bestSolution ???????????????
 		setSolution(rvns(newSolution));
 		time_end = System.currentTimeMillis();
 		setTiempoEjec(time_end - time_start);
@@ -83,8 +83,8 @@ public class VNS extends Algorithm{
 	}
 	
 	public Solucion rvns(Solucion actualSolution) {
-		boolean stop = false; // boolean that turns true when there is no improvement
-		while(!stop) {
+		int numIteraciones = getN_ITERACIONES();
+		while(numIteraciones >= 0) {
 			int actualEntorno = 0;
 			Solucion auxSolution = new Solucion(actualSolution);
 			// hasta que se hayan usado todas las estructuras de entorno
@@ -103,10 +103,11 @@ public class VNS extends Algorithm{
 			// si se ha mejorado se actualiza actualSolution
 			if(auxSolution.getLatenciaTotal(getInitialInstance()) < actualSolution.getLatenciaTotal(getInitialInstance())) {
 				actualSolution = auxSolution;
+				numIteraciones = getN_ITERACIONES();
 			}
 			// si no se ha mejorado paramos el bucle
 			else
-				stop = true;
+				numIteraciones--;
 			
 		}
 		return actualSolution;
@@ -117,11 +118,25 @@ public class VNS extends Algorithm{
 		// Intramáquina
 		if(entorno == 0 || entorno == 1) {
 			Integer machine = rnd.nextInt(sol.getMachineList().size());
+			
+			while(sol.getMachineList().get(machine).getTareasRealizadas().size() <= 0)
+				machine = rnd.nextInt(sol.getMachineList().size());
+
+			
 			Integer tarea1, tarea2;
 			do{
 				tarea1 = rnd.nextInt(sol.getMachineList().get(machine).getTareasRealizadas().size());
 				tarea2 = rnd.nextInt(sol.getMachineList().get(machine).getTareasRealizadas().size());
+				if(sol.getMachineList().get(machine).getTareasRealizadas().size() == 1) {
+					tarea1 = 0;
+					tarea2 = -1;
+				}
 			} while(tarea1 == tarea2);
+			
+			if(sol.getMachineList().get(machine).getTareasRealizadas().size() == 1) {
+				tarea1 = 0;
+				tarea2 = 0;
+			}
 			
 			Maquina auxMachine = new Maquina(sol.getMachineList().get(machine));
 			auxMachine.changePosItem(tarea1, tarea2);
@@ -135,7 +150,9 @@ public class VNS extends Algorithm{
 				do {
 					maquina1 = rnd.nextInt(sol.getMachineList().size());
 					maquina2 = rnd.nextInt(sol.getMachineList().size());
-				} while(maquina1 == maquina2);
+				} while(maquina1 == maquina2
+						|| sol.getMachineList().get(maquina1).getTareasRealizadas().size() <= 0
+						|| sol.getMachineList().get(maquina2).getTareasRealizadas().size() <= 0);
 				
 				Integer tarea1 = rnd.nextInt(sol.getMachineList().get(maquina1).getTareasRealizadas().size());
 				Integer tarea2 = rnd.nextInt(sol.getMachineList().get(maquina2).getTareasRealizadas().size());
@@ -147,6 +164,10 @@ public class VNS extends Algorithm{
 		else if(entorno == 4 || entorno == 5) {
 			if(sol.getMachineList().size() > 1) {
 				Integer machine = rnd.nextInt(sol.getMachineList().size());
+				
+				while(sol.getMachineList().get(machine).getTareasRealizadas().size() <= 0)
+					machine = rnd.nextInt(sol.getMachineList().size());
+				
 				Integer tarea = rnd.nextInt(sol.getMachineList().get(machine).getTareasRealizadas().size());
 				
 				Integer maquinaDestino;
@@ -162,7 +183,6 @@ public class VNS extends Algorithm{
 		return sol;
 	}
 	
-	// TODO switch smell
 	public Solucion getEntorno(int entorno, Solucion sol) {
 		switch(entorno) {
 		case 0:

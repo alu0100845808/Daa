@@ -7,38 +7,43 @@ import java.util.Date;
 public class Main {
 	private static String NombreCarpeta;
 	final static int NUMEROALG = 5;
+	final static Integer LRC_SIZE = 3;
+	final static Integer N_ITERACIONES = 100;
 	
 	public static void execAlgoritmos(Instancia instancia, String NombreCarpeta) {
-		for (int j = 0; j < NUMEROALG; j++) {
+		for (int j = 0; j <= NUMEROALG; j++) {
 			switch (j) {
 			case 0:
-				GreedyAlgorithm greedy = new GreedyAlgorithm(instancia);
+				/*GreedyAlgorithm greedy = new GreedyAlgorithm(instancia);
 				greedy.exec();
-				greedy.printSolucion(NombreCarpeta);
+				greedy.printSolucion(NombreCarpeta);*/
 				break;
 			case 1:
-				GraspAlgorithm grasp = new GraspAlgorithm(instancia);
+				/*GraspAlgorithm grasp = new GraspAlgorithm(instancia, LRC_SIZE, N_ITERACIONES);
 				grasp.exec();
-				grasp.printSolucion(NombreCarpeta);
+				grasp.printSolucion(NombreCarpeta);*/
 				break;
 			case 2:
-				LNS lns = new LNS(instancia);
+				/*LNS lns = new LNS(instancia, N_ITERACIONES);
 				lns.exec();
-				lns.printSolucion(NombreCarpeta);
+				lns.printSolucion(NombreCarpeta);*/
 				break;
 			case 3:
 				/*
 				TS ts = new TS(instancia);
 				ts.exec();
-				ts.printSolucion(NombreCarpeta);
+				ts.printSolucion(NombreCarpeta);*/
 				break;
-				*/
 			case 4:
 				/*
 				VNS vns = new VNS(instancia);
 				vns.exec();
-				vns.printSolucion(NombreCarpeta);
-				*/
+				vns.printSolucion(NombreCarpeta);*/
+				break;
+			case 5:
+				Multiarranque mult = new Multiarranque(instancia, N_ITERACIONES);
+				mult.exec();
+				mult.printSolucion(NombreCarpeta);
 				break;
 			default:
 				break;
@@ -55,6 +60,7 @@ public class Main {
 	        	Instancia aux = new Instancia();
 	        	
 		    	try {
+		    		System.out.println(ficheroEntrada.getAbsolutePath());
 					aux.readFromInstance(ficheroEntrada.getAbsolutePath());
 					execAlgoritmos(aux, NombreCarpeta);
 				} catch (IOException e) {

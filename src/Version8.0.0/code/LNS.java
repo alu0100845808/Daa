@@ -7,19 +7,20 @@ public class LNS extends Algorithm{
 	private double porDestr;
 	private final double MAXDESTR = 0.7;
 
-	public LNS(Instancia initInst) {
-		super(new Instancia(initInst), "LNS");
+	public LNS(Instancia initInst, int maxIter) {
+		super(new Instancia(initInst), "LNS", maxIter);
 		setPorDestr(0.1);
 	}
 
 	@Override
 	public void exec() {
+		int iters = 0;
 		long time_start, time_end;
 		time_start = System.currentTimeMillis();
 		conseguirSolucion();
 		int mejorLatencia = getSolution().getLatenciaTotal(getInitialInstance());
 		Solucion bestSolucion = new Solucion(getSolution());
-		while(getPorDestr() < MAXDESTR){
+		while(getPorDestr() < MAXDESTR && iters < getN_ITERACIONES()){
 			destruirParteSolucion();
 			conseguirSolucion();
 			mejora();
@@ -29,8 +30,10 @@ public class LNS extends Algorithm{
 				setPorDestr(0.1);
 			}
 			setPorDestr(getPorDestr() + 0.1);
+			iters++;
 		}
 		setSolution(bestSolucion);
+		setN_ITERACIONES(iters + 1);
 		time_end = System.currentTimeMillis();
 		setTiempoEjec(time_end - time_start);
 	}
