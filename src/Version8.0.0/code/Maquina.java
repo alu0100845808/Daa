@@ -53,6 +53,22 @@ public class Maquina {
 		}
 	}
 	
+	public Pair<Integer, Integer> getBestChange(Instancia initialInstance) {
+		Pair<Integer, Integer> toReturn = new Pair<Integer, Integer>(-1, -1);
+		int minLatencia = getLatencia(initialInstance);
+		for(int i = 0; i < getTareasRealizadas().size() - 1; i++){
+			for(int j = i + 1; j < getTareasRealizadas().size(); j++){
+				changePosItem(i, j);
+				if(getLatencia(initialInstance) < minLatencia){
+					toReturn = new Pair<Integer, Integer>(getTareasRealizadas().get(i).getID(), getTareasRealizadas().get(j).getID());
+					minLatencia = getLatencia(initialInstance);
+				}
+				changePosItem(i, j);
+			}
+		}
+		return toReturn;
+	}
+	
 	public Integer getLatencia(Instancia instancia) {
 		Integer latTotal = 0;
 		Integer size = getTareasRealizadas().size();

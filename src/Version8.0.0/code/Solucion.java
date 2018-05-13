@@ -158,6 +158,41 @@ public class Solucion {
 	
 	
 	/*******************************FUNCIONES AUXILIARES***************************/
+	public Pair<Integer, Integer> getBestExchangeFromSolution(Instancia instancia){
+		Pair<Integer, Integer> bestExchange = new Pair<Integer, Integer>(-1, -1);
+		Pair<Integer, Integer> auxBestExchange = new Pair<Integer, Integer>(-1, -1);
+		Solucion aux = new Solucion(this);
+		int maxLatencia = Integer.MAX_VALUE;
+		for (int i = 0; i < getMachineList().size() - 1; i++) {
+			for (int j = i + 1; j < getMachineList().size(); j++) {
+				auxBestExchange = getBestExchange(i, j, instancia);
+				aux = exchangeMachineItem(auxBestExchange.getKey(), auxBestExchange.getValue());
+				if(aux.getLatenciaTotal(instancia) < maxLatencia) {
+					bestExchange = new Pair<Integer, Integer>(auxBestExchange.getKey(), auxBestExchange.getValue());
+					maxLatencia = aux.getLatenciaTotal(instancia);
+				}
+			}
+		}
+		return bestExchange;
+	}
+	
+	/** Funcion que devuelve el ID mejor par de tareas a intercambiar */
+	public Pair<Integer, Integer> getBestExchange(Integer IDMaquina1, Integer IDMaquina2, Instancia instancia) {
+		int ID1 = -1, ID2 = -1;
+		Solucion aux = new Solucion(this);
+		int maxLatencia = Integer.MAX_VALUE;
+		for (int i = 0; i < getMachineList().get(IDMaquina1).getTareasRealizadas().size(); i++) {
+			for (int j = 0; j < getMachineList().get(IDMaquina2).getTareasRealizadas().size(); j++) {
+				aux = exchangeMachineItem(getMachineList().get(IDMaquina1).getTareasRealizadas().get(i).getID(), getMachineList().get(IDMaquina2).getTareasRealizadas().get(j).getID());
+				if(aux.getLatenciaTotal(instancia) < maxLatencia) {
+					ID1 = getMachineList().get(IDMaquina1).getTareasRealizadas().get(i).getID();
+					ID2 = getMachineList().get(IDMaquina2).getTareasRealizadas().get(j).getID();
+					maxLatencia = aux.getLatenciaTotal(instancia);
+				}
+			}
+		}
+		return new Pair<Integer, Integer>(ID1, ID2);
+	}
 	
 	 /** Intercambia los elementos itemIDA e itemIDB independientemente de la maquina en la que se encuentre 
 	 * @return **/
@@ -303,7 +338,7 @@ public class Solucion {
 		salida += initInstance.getNumeroTareas() + ";";
 		salida += getMachineList().size() + ";";
 		salida += getLatenciaTotal(initInstance) + ";";
-		salida += tiempoEjec;
+		salida += tiempoEjec + ";";
 		salida += nIteraciones;
 		
 		for(int i = 0; i < getMachineList().size(); i++){

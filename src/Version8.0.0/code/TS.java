@@ -15,11 +15,15 @@ public class TS extends Algorithm{
 		conseguirSolucion();
 		Solucion bestSolution = new Solucion(getSolution());
 		tabuList = new ArrayList<Pair<Integer, Integer>>();
+		boolean entorno = false;
 		for(int i = 0; i < getN_ITERACIONES(); i++) {
-			
-			
-			
-			
+			Pair<Integer, Integer> mejorVecino;
+			if(entorno)
+				mejorVecino = bestSolution.getBestExchangeFromSolution(getInitialInstance());
+			else {
+				Integer peorMaquina = bestSolution.getPeorCandidatoID();
+				mejorVecino = bestSolution
+			}
 		}
 	}
 	
